@@ -7,6 +7,7 @@ db.users.insert({
 db.configmocks.insert({
     "maxBuyNum" : 3,
     "ths_url" : "http://mncg.10jqka.com.cn/cgiwt/index/index",
+    "username" : "xxxxx",
     "cookie" : "xxxxx",
     "gdzh" : "xxxxx",
     "sh_gdzh" : "xxxxx",
@@ -31,7 +32,8 @@ db.strategies.insertMany([{
         "percent" : {
             "low" : "-0.5",
             "high" : "2.5"
-        }
+        },
+        "volume" : 100
     }
 },{
     "name" : "打板策略",
