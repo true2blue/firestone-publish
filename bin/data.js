@@ -6,6 +6,7 @@ db.users.insert({
 });
 db.configmocks.insert({
     "maxBuyNum" : 3,
+    "curBuyNum" : 0,
     "ths_url" : "http://mncg.10jqka.com.cn/cgiwt/index/index",
     "username" : "xxxxx",
     "cookie" : "xxxxx",
