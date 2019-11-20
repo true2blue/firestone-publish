@@ -7,4 +7,5 @@ start /W build-firestone-server.bat
 REM build firestone-engine
 start /W build-firestone-engine.bat
 
+del firestone-v1.0.zip /Q
 7z a -tzip firestone-v1.0.zip bin client server README.md startup.bat
