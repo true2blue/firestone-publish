@@ -2,6 +2,8 @@ REM load init data
 RMDIR bin /S /Q && MKDIR bin
 xcopy ..\firestone-server\install\init.js bin\ /i /e /y
 xcopy ..\firestone-server\install\init.bat bin\ /i /e /y
+xcopy ..\firestone-server\install\codes.json bin\ /i /e /y
+xcopy ..\firestone-server\install\concepts.json bin\ /i /e /y
 cd bin && start /W init.bat && cd..
 
 REM build firestone
