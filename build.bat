@@ -1,6 +1,7 @@
 REM load init data
 RMDIR bin /S /Q && MKDIR bin
-cd ..\firestone-server && git pull && cd ..\firestone-publish
+cd ..\firestone-server && git pull
+cd ..\firestone-publish
 xcopy ..\firestone-server\install\init.js bin\ /i /e /y
 xcopy ..\firestone-server\install\init.bat bin\ /i /e /y
 xcopy ..\firestone-server\install\codes.json bin\ /i /e /y
