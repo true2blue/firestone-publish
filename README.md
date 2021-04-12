@@ -6,7 +6,9 @@
 
 1.Download and install the mongodb
 
-2.Start the mongodb
+2.Start the mongodb 
+    mongod --dbpath C:/data/db
+    mongod --storageEngine inMemory --port 27018 --dbpath C:/data/dbram
 
 3.Run bin/initData.bat
 

@@ -1,2 +1,6 @@
+start mongod --dbpath C:/data/db
+start mongod --storageEngine inMemory --port 27018 --dbpath C:/data/dbram
+timeout 5
+start mongo 127.0.0.1:27018/firestone-data --eval "db.dropDatabase(); db.getSiblingDB('firestone-data');" "./bin/initdata.js"
 start serve -s client
 cd server && node index.js
