@@ -8,6 +8,8 @@ db.configs.insert({
     "maxBuyNum" : 3,
     "curBuyNum" : 0,
     "monitor_concept" : [],
+    "cookie" : "",
+    "validatekey" : "",
     "userId" : ObjectId("5d905db9fc84d3224b0eb59c")
 });
 db.configmocks.insert({
@@ -155,5 +157,39 @@ db.strategies.insertMany([{
         "open_percent_high" : "3.5",
         "max_stock_percent" : "3.0",
         "volume" : "30000"
+    }
+},{
+    "_id" : ObjectId("5da19b7d181fc3600c5544c7"),
+    "name" : "T0",
+    "description" : "在<i>监控时间</i>范围内,买入并卖出股票",
+    "op" : "buy",
+    "url" : "PPT0",
+    "parameters" : {
+        "code" : "",
+        "executeDate" : "",
+        "monitorTime" : {
+            "start" : "09:30",
+            "end" : "15:00"
+        },
+        "force_sell_time" : "14:50:00",
+        "pre" : {
+            "high" : "0",
+            "low" : "0",
+            "close" : "0" 
+        },
+        "points" : "13",
+        "approach" : "0.5",
+        "stop_win" : "3.0",
+        "drop_from_high" : "0.5",
+        "body_length" : "3.0",
+        "down_shadow_body_ratio" : "0.5",
+        "down_shadow_body_ratio_min" : "0.15",
+        "close_low_interval_time" : "20",
+        "close_low_interval_time_max" : "180",
+        "money" : {
+            "time" : "1",
+            "amount" : "60"
+        },
+        "volume" : "1000"
     }
 }]);
