@@ -1,5 +1,5 @@
 cd ..\firestone-engine
-git pull
+@REM git pull
 xcopy lib\trading.py C:\Users\Administrator\.virtualenvs\firestone-engine-bHojJoF3\Lib\site-packages\tushare\stock /i /e /y
 pipenv run pyinstaller -F --clean main.spec
 pipenv run pyinstaller -F --clean calculate.spec

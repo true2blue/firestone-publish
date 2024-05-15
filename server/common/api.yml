@@ -1,0 +1,656 @@
+swagger: "2.0"
+info:
+  version: 1.0.0
+  title: firestone-server
+  description: firestone-server
+basePath: /api/v1
+tags:
+  - name: Examples
+    description: Simple example endpoints
+  - name: Specification
+    description: The swagger API specification
+  - name: Users
+    description: system user information
+  - name: Config
+    description: trade configuration
+  - name: ConfigMocks
+    description: mock trade configuration
+  - name: Trades
+    description: trade records
+  - name: MockTrades
+    description: mock trade records
+  - name: Strategy
+    description: the trade strategy
+  - name: Firestonerock
+    description: the firestone & firerock service
+
+consumes:
+  - application/json
+produces:
+  - application/json
+
+
+definitions:
+  ExampleBody:
+    type: object
+    title: example
+    required:
+      - name
+    properties:
+      name:
+        type: string
+        example: no_stress
+  UserBody:
+    type: object
+    title: user
+    required:
+      - username
+      - password
+    properties:
+      username:
+        type: string
+        example: aqua
+      password:
+        type: string
+        example: '123456' 
+  configBody:
+    type: object
+    title: Config
+    required:
+      - accesstoken
+      - update
+    properties:
+      accesstoken:
+        type: string
+        example: NWQ5MDVkYjlmYzg0ZDMyMjRiMGViNTljOjE2Nzg0M2Q5ZDQ3ZGJlMGE2OWE4MWEzYjBjNDgwNmY1NDM5NmM5ZmY5YjU4OWExNTdkMTE3Y2FjOWQzYmMzMGU=
+      update:
+        type: object
+        example: {
+          maxBuyNum : 4        
+        }  
+  configMockBody:
+    type: object
+    title: ConfigMock
+    required:
+      - accesstoken
+      - update
+    properties:
+      accesstoken:
+        type: string
+        example: NWQ5MDVkYjlmYzg0ZDMyMjRiMGViNTljOjE2Nzg0M2Q5ZDQ3ZGJlMGE2OWE4MWEzYjBjNDgwNmY1NDM5NmM5ZmY5YjU4OWExNTdkMTE3Y2FjOWQzYmMzMGU=
+      update:
+        type: object
+        example: {
+          maxBuyNum : 4        
+        } 
+  mockTradeBody:
+    type: object
+    title: MockTrade
+    required:
+      - accesstoken
+      - mocktradeid
+      - update
+    properties:
+      accesstoken:
+        type: string
+        example: NWQ5MDVkYjlmYzg0ZDMyMjRiMGViNTljOjE2Nzg0M2Q5ZDQ3ZGJlMGE2OWE4MWEzYjBjNDgwNmY1NDM5NmM5ZmY5YjU4OWExNTdkMTE3Y2FjOWQzYmMzMGU=
+      mocktradeid:
+        type: string
+        example: 5da1800e87b64fb6f4c32503
+      update:
+        type: object
+        example: {
+          deleted : true,
+          state: '启动',
+          result: '以19.24买入400股',
+          params: {
+            monitorTime : {
+              start : "09:30",
+              end : "15:00"
+            },
+            index_percent : {
+              low : -1.5,
+              high : 3.0
+            },
+            percent : {
+              low : -2.0,
+              high : 3.0
+            }
+          }
+        }
+  tradeBody:
+    type: object
+    title: Trade
+    required:
+      - accesstoken
+      - tradeid
+      - update
+    properties:
+      accesstoken:
+        type: string
+        example: NWQ5MDVkYjlmYzg0ZDMyMjRiMGViNTljOjE2Nzg0M2Q5ZDQ3ZGJlMGE2OWE4MWEzYjBjNDgwNmY1NDM5NmM5ZmY5YjU4OWExNTdkMTE3Y2FjOWQzYmMzMGU=
+      tradeid:
+        type: string
+        example: 5da1800e87b64fb6f4c32503
+      update:
+        type: object
+        example: {
+          deleted : true,
+          state: '启动',
+          result: '以19.24买入400股',
+          params: {
+            monitorTime : {
+              start : "09:30",
+              end : "15:00"
+            },
+            index_percent : {
+              low : -1.5,
+              high : 3.0
+            },
+            percent : {
+              low : -2.0,
+              high : 3.0
+            }
+          }
+        }
+  historyMockTradeQueryBody:
+    type: object
+    title: HistoryMockTradeQuery
+    required:
+      - accesstoken
+      - createdDate
+    properties:
+      accesstoken:
+        type: string
+        example: NWQ5MDVkYjlmYzg0ZDMyMjRiMGViNTljOjE2Nzg0M2Q5ZDQ3ZGJlMGE2OWE4MWEzYjBjNDgwNmY1NDM5NmM5ZmY5YjU4OWExNTdkMTE3Y2FjOWQzYmMzMGU=
+      createdDate:
+        type: string
+        example: 2019-10-18
+      code:
+        type: string
+        example: ''
+  historyTradeQueryBody:
+    type: object
+    title: HistoryTradeQuery
+    required:
+      - accesstoken
+      - createdDate
+    properties:
+      accesstoken:
+        type: string
+        example: NWQ5MDVkYjlmYzg0ZDMyMjRiMGViNTljOjE2Nzg0M2Q5ZDQ3ZGJlMGE2OWE4MWEzYjBjNDgwNmY1NDM5NmM5ZmY5YjU4OWExNTdkMTE3Y2FjOWQzYmMzMGU=
+      createdDate:
+        type: string
+        example: 2019-10-18
+      code:
+        type: string
+        example: ''  
+
+  newMockTrade:
+    type: object
+    title: MockTrade
+    required:
+      - accesstoken
+      - strategyId
+      - params
+    properties:
+      accesstoken:
+        type: string
+        example: NWQ5MDVkYjlmYzg0ZDMyMjRiMGViNTljOjE2Nzg0M2Q5ZDQ3ZGJlMGE2OWE4MWEzYjBjNDgwNmY1NDM5NmM5ZmY5YjU4OWExNTdkMTE3Y2FjOWQzYmMzMGU=
+      strategyId:
+        type: string
+        example: 5da19b7d181fc3600c5544c2
+      params:
+        type: object
+        example: {
+          code : '002899',
+          monitorTime : {
+            start : "09:30",
+            end : "15:00"
+          },
+          index_percent : {
+            low : -1.5,
+            high : 3.0
+          },
+          percent : {
+            low : -2.0,
+            high : 3.0
+          }
+        }
+
+  newTrade:
+    type: object
+    title: Trade
+    required:
+      - accesstoken
+      - strategyId
+      - params
+    properties:
+      accesstoken:
+        type: string
+        example: NWQ5MDVkYjlmYzg0ZDMyMjRiMGViNTljOjE2Nzg0M2Q5ZDQ3ZGJlMGE2OWE4MWEzYjBjNDgwNmY1NDM5NmM5ZmY5YjU4OWExNTdkMTE3Y2FjOWQzYmMzMGU=
+      strategyId:
+        type: string
+        example: 5da19b7d181fc3600c5544c2
+      params:
+        type: object
+        example: {
+          code : '002899',
+          monitorTime : {
+            start : "09:30",
+            end : "15:00"
+          },
+          index_percent : {
+            low : -1.5,
+            high : 3.0
+          },
+          percent : {
+            low : -2.0,
+            high : 3.0
+          }
+        }  
+
+  fireStoneRock:
+    type: object
+    title: FireStoneRock
+    required:
+      - codes
+      - tradeId
+    properties:
+      codes:
+        type: array
+        items:
+          type: string
+        example: ['000993','000001']
+      tradeId:
+        type: string
+        example: 5da95370b8b19f94f11fce95
+
+  fireStoneHeartBeat:
+    type: object
+    title: fireStoneHeartBeat
+    required:
+      - cookie   
+    properties:
+      cookie:
+        type: string
+        example: __utma=156575163.1101180334.1557107567.1557375466.1557738304.3; isSaveAccount=0; Hm_lvt_416c770ac83a9d996d7b3793f8c4994d=1572344617; user=MDphcXVhSVFjOjpOb25lOjUwMDo0MjUzOTk0Njc6NywxMTExMTExMTExMSw0MDs0NCwxMSw0MDs2LDEsNDA7NSwxLDQwOzEsMSw0MDsyLDEsNDA7MywxLDQwOzUsMSw0MDs4LDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAxLDQwOjI0Ojo6NDE1Mzk5NDY3OjE1NzQyNTY3NTA6OjoxNTA2MDQ4OTYwOjYwNDgwMDowOjFjOGFlMGY3YjUxYmNkZjQ5MjI3OTBmNjg3ZjMzYzNlMTpkZWZhdWx0XzM6MQ%3D%3D; userid=415399467; u_name=aquaIQc; escapename=aquaIQc; ticket=11fe4b0cedab783ea1fc2d592d537d46; historystock=002436; spversion=20130314; v=Ag0b1XVgbDoSGcgWkFKH0MLBHCKE6kG9yx6lkE-SSaQTRiPUFzpRjFtutWXc; Hm_lvt_78c58f01938e4d85eaf619eae71b4ed1=1574256074,1574256089,1574317827,1574343159; Hm_lpvt_78c58f01938e4d85eaf619eae71b4ed1=1574343159; PHPSESSID=7824b8ed7e3cd04bbd6edd564e61c7fc  
+
+  fireStoneDfcfHeartBeat:
+    type: object
+    title: fireStoneDfcfHeartBeat
+    required:
+      - cookie   
+      - validatekey
+    properties:
+      cookie:
+        type: string
+        example: __utma=156575163.1101180334.1557107567.1557375466.1557738304.3; isSaveAccount=0; Hm_lvt_416c770ac83a9d996d7b3793f8c4994d=1572344617; user=MDphcXVhSVFjOjpOb25lOjUwMDo0MjUzOTk0Njc6NywxMTExMTExMTExMSw0MDs0NCwxMSw0MDs2LDEsNDA7NSwxLDQwOzEsMSw0MDsyLDEsNDA7MywxLDQwOzUsMSw0MDs4LDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAxLDQwOjI0Ojo6NDE1Mzk5NDY3OjE1NzQyNTY3NTA6OjoxNTA2MDQ4OTYwOjYwNDgwMDowOjFjOGFlMGY3YjUxYmNkZjQ5MjI3OTBmNjg3ZjMzYzNlMTpkZWZhdWx0XzM6MQ%3D%3D; userid=415399467; u_name=aquaIQc; escapename=aquaIQc; ticket=11fe4b0cedab783ea1fc2d592d537d46; historystock=002436; spversion=20130314; v=Ag0b1XVgbDoSGcgWkFKH0MLBHCKE6kG9yx6lkE-SSaQTRiPUFzpRjFtutWXc; Hm_lvt_78c58f01938e4d85eaf619eae71b4ed1=1574256074,1574256089,1574317827,1574343159; Hm_lpvt_78c58f01938e4d85eaf619eae71b4ed1=1574343159; PHPSESSID=7824b8ed7e3cd04bbd6edd564e61c7fc  
+      validatekey:
+        type: string
+        example: 123
+
+paths:
+  /examples:
+    get:
+      tags:
+        - Examples
+      description: Fetch all examples
+      responses:
+        200:
+          description: Returns all examples
+    post:
+      tags:
+        - Examples
+      description: Create a new example
+      parameters:
+        - name: example
+          in: body
+          description: an example
+          required: true
+          schema: 
+            $ref: "#/definitions/ExampleBody"
+      responses:
+        200:
+          description: Returns all examples
+
+  /examples/{id}:
+    get:
+      tags:
+        - Examples
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: The id of the example to retrieve
+          type: integer
+      responses:
+        200:
+          description: Return the example with the specified id
+        404:
+          description: Example not found
+
+  /users/login:
+    post:
+      tags:
+        - Users
+      description: login system 
+      parameters:
+        - name: user
+          in: body
+          required: true
+          description: The login info
+          schema: 
+            $ref: "#/definitions/UserBody"
+      responses:
+        200:
+          description: Return the login result
+  
+  /users/auth:
+    get:
+      tags:
+        - Users
+      description: auth user
+      parameters:
+        - name: accesstoken
+          in: header
+          required: true
+          description: The auth info
+          type: string
+      responses:
+        200:
+          description: Return the auth result  
+
+  /configmock/{accesstoken}:
+    get:
+      tags:
+        - ConfigMocks
+      description: get user mock trade config
+      parameters:
+        - name: accesstoken
+          in: path
+          required: true
+          x-example: NWQ5MDVkYjlmYzg0ZDMyMjRiMGViNTljOjE2Nzg0M2Q5ZDQ3ZGJlMGE2OWE4MWEzYjBjNDgwNmY1NDM5NmM5ZmY5YjU4OWExNTdkMTE3Y2FjOWQzYmMzMGU=
+          description: The accesstoken of the ConfigMock to retrieve
+          type: string
+      responses:
+        200:
+          description: Return the ConfigMock with the specified accesstoken
+
+  /config/{accesstoken}:
+    get:
+      tags:
+        - Config
+      description: get user trade config
+      parameters:
+        - name: accesstoken
+          in: path
+          required: true
+          x-example: NWQ5MDVkYjlmYzg0ZDMyMjRiMGViNTljOjE2Nzg0M2Q5ZDQ3ZGJlMGE2OWE4MWEzYjBjNDgwNmY1NDM5NmM5ZmY5YjU4OWExNTdkMTE3Y2FjOWQzYmMzMGU=
+          description: The accesstoken of the Config to retrieve
+          type: string
+      responses:
+        200:
+          description: Return the Config with the specified accesstoken
+
+  /configmock:
+    post:
+      tags:
+        - ConfigMocks
+      description: save user mock trade config
+      parameters:
+        - name: postData
+          in: body
+          required: true
+          description: The postData of the ConfigMock
+          schema: 
+            $ref: "#/definitions/configMockBody"
+      responses:
+        200:
+          description: Return the updated new ConfigMock
+
+  /config:
+    post:
+      tags:
+        - Config
+      description: save user trade config
+      parameters:
+        - name: postData
+          in: body
+          required: true
+          description: The postData of the Config
+          schema: 
+            $ref: "#/definitions/configBody"
+      responses:
+        200:
+          description: Return the updated new Config
+
+  /mocktrade/{accesstoken}:
+    get:
+      tags:
+        - MockTrades
+      description: get mock trade datas
+      parameters:
+        - name: accesstoken
+          in: path
+          required: true
+          description: the user accesstoken
+          x-example: NWQ5MDVkYjlmYzg0ZDMyMjRiMGViNTljOjE2Nzg0M2Q5ZDQ3ZGJlMGE2OWE4MWEzYjBjNDgwNmY1NDM5NmM5ZmY5YjU4OWExNTdkMTE3Y2FjOWQzYmMzMGU=
+          type: string
+      responses:
+        200:
+          description: Return the user mock trade records
+
+  /trade/{accesstoken}:
+    get:
+      tags:
+        - Trades
+      description: get trade datas
+      parameters:
+        - name: accesstoken
+          in: path
+          required: true
+          description: the user accesstoken
+          x-example: NWQ5MDVkYjlmYzg0ZDMyMjRiMGViNTljOjE2Nzg0M2Q5ZDQ3ZGJlMGE2OWE4MWEzYjBjNDgwNmY1NDM5NmM5ZmY5YjU4OWExNTdkMTE3Y2FjOWQzYmMzMGU=
+          type: string
+      responses:
+        200:
+          description: Return the user trade records
+
+  /mocktrade/history:
+    post:
+      tags:
+        - MockTrades
+      description: get history mock trade datas
+      parameters:
+        - name: postData
+          in: body
+          required: true
+          description: history mocktrades query parameters
+          schema: 
+            $ref: "#/definitions/historyMockTradeQueryBody"
+      responses:
+        200:
+          description: Return the history mock trade records
+
+  /trade/history:
+    post:
+      tags:
+        - Trades
+      description: get history trade datas
+      parameters:
+        - name: postData
+          in: body
+          required: true
+          description: history trades query parameters
+          schema: 
+            $ref: "#/definitions/historyTradeQueryBody"
+      responses:
+        200:
+          description: Return the history trade records         
+  
+  /mocktrade:
+    post:
+      tags:
+        - MockTrades  
+      description: update mock trade 
+      parameters:
+        - name: postData 
+          in: body
+          required: true
+          description: the mocktrade update data
+          schema: 
+            $ref: "#/definitions/mockTradeBody"
+      responses:
+        200:
+          description: Return the updated mock trade
+
+  /trade:
+    post:
+      tags:
+        - Trades  
+      description: update trade 
+      parameters:
+        - name: postData 
+          in: body
+          required: true
+          description: the trade update data
+          schema: 
+            $ref: "#/definitions/tradeBody"
+      responses:
+        200:
+          description: Return the updated trade  
+
+  /mocktrade/new:
+    post:
+      tags:
+        - MockTrades  
+      description: create new mock trade 
+      parameters:
+        - name: newData 
+          in: body
+          required: true
+          description: the mocktrade create data
+          schema: 
+            $ref: "#/definitions/newMockTrade"
+      responses:
+        200:
+          description: Return the created mock trade
+
+  /trade/new:
+    post:
+      tags:
+        - Trades  
+      description: create new trade 
+      parameters:
+        - name: newData 
+          in: body
+          required: true
+          description: the trade create data
+          schema: 
+            $ref: "#/definitions/newTrade"
+      responses:
+        200:
+          description: Return the created trade            
+
+          
+  /strategy:
+    get:
+      tags:
+        - Strategy
+      description: get all available trade strategies
+      responses:
+        200:
+          description: return all strategies
+
+  /strategy/{strategyId}:
+    get:
+      tags:
+        - Strategy
+      parameters:
+        - name: strategyId
+          in: path
+          required: true
+          description: strategyId
+          type: string
+          x-example: 5da19b7d181fc3600c5544c2
+      description: get trade strategy by id
+      responses:
+        200:
+          description: return strategy  
+
+
+  /firestonerock:
+    post:
+      tags:
+        - Firestonerock  
+      description: start new Firestone & Firerock service 
+      parameters:
+        - name: newData 
+          in: body
+          required: true
+          description: the parameters
+          schema: 
+            $ref: "#/definitions/fireStoneRock"
+      responses:
+        200:
+          description: Return the Firestone & Firerock service created result   
+
+  /firestonerock/heartbeat/{accesstoken}:
+    get:
+      tags:
+        - Firestonerock  
+      description: start heart beat to ths 
+      parameters:
+        - name: accesstoken 
+          in: path
+          required: true
+          description: the accesstoken
+          type: string
+          x-example: NWQ5MDVkYjlmYzg0ZDMyMjRiMGViNTljOjE2Nzg0M2Q5ZDQ3ZGJlMGE2OWE4MWEzYjBjNDgwNmY1NDM5NmM5ZmY5YjU4OWExNTdkMTE3Y2FjOWQzYmMzMGU=
+      responses:
+        200:
+          description: Return the heart beat result
+
+  /firestonerock/pingheartbeat:
+    post:
+      tags:
+        - Firestonerock  
+      description: ping heart beat to ths to do the test
+      parameters:
+        - name: cookie 
+          in: body
+          required: true
+          description: the ths cookie
+          schema: 
+            $ref: "#/definitions/fireStoneHeartBeat"
+      responses:
+        200:
+          description: Return the heart beat result
+
+
+  /firestonerock/pingdfcfheartbeat:
+    post:
+      tags:
+        - Firestonerock  
+      description: ping heart beat to dfcf to do the test
+      parameters:
+        - name: dfcf_param 
+          in: body
+          required: true
+          description: cookie and validate key
+          schema: 
+            $ref: "#/definitions/fireStoneDfcfHeartBeat"
+      responses:
+        200:
+          description: Return the heart beat result
+  
+
+
+  /spec:
+    get:
+      tags:
+        - Specification
+      responses:
+        200:
+          description: Return the API specification
