@@ -195,7 +195,7 @@ db.strategies.insertMany([{
     }
 },{
     "_id" : ObjectId("5da19b7d181fc3600c5544c8"),
-    "name" : "分批买入",
+    "name" : "MultiBuy",
     "description" : "在<i>监控时间</i>范围内,分多次买入股票",
     "op" : "buy",
     "url" : "MultiBuy",
