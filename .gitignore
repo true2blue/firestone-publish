@@ -1,4 +1,4 @@
-server/logs/*
-!server/logs/.gitkeep
-server/shell/logs/*
-!server/shell/logs/.gitkeep
+/server/logs/*
+!/server/logs/.gitkeep
+/server/shell/logs/*
+!/server/shell/logs/.gitkeep
