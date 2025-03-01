@@ -1,4 +1,5 @@
 setx FR_DB firestone
+set FR_DB=firestone
 start mongod --dbpath C:/data/db
 start mongod --storageEngine inMemory --port 27018 --dbpath C:/data/dbram
 timeout 5
