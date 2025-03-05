@@ -2,3 +2,4 @@
 !/server/logs/.gitkeep
 /server/shell/logs/*
 !/server/shell/logs/.gitkeep
+monitor/config/config.ini
