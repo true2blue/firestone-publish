@@ -1,2 +1,2 @@
 cd ..\firestone-lab
-cd venv\Scripts && .\activate.bat && cd ..\.. && pip install pyinstaller && pyinstaller app.spec && xcopy config\config.ini ..\firestone-publish\lab /i /e /y && xcopy dist\app.exe ..\firestone-publish\lab /i /e /y && del ..\firestone-publish\lab\logs\*.* /Q && exit
+cd venv\Scripts && .\activate.bat && cd ..\.. && pip install pyinstaller && pyinstaller --noconfirm --clean run_app.spec && xcopy config\config.ini ..\firestone-publish\lab\config /i /e /y && xcopy dist\app.exe ..\firestone-publish\lab /i /e /y && del ..\firestone-publish\lab\logs\*.* /Q && exit
