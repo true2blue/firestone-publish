@@ -1,4 +1,6 @@
 REM load init data
+setx FR_DB firestone
+set FR_DB=firestone
 RMDIR bin /S /Q && MKDIR bin
 cd ..\firestone-server && git pull
 cd ..\firestone-publish
