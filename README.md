@@ -4,7 +4,7 @@
 **Install & Start**
 ===================
 
-1.Download and install the mongodb
+1.Download and install the mongodb (mongodb compass use 1.40.0)
 
 2.Start the mongodb 
     mongod --dbpath C:/data/db
