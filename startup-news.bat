@@ -1,4 +1,8 @@
-start mongo 127.0.0.1:27018/firestone-data --eval "db.dropDatabase(); db.getSiblingDB('firestone-data');" "./bin/initFirestoneData.js"
+setx FR_DB firestone
+set FR_DB=firestone
+start mongod --dbpath C:/data/db
+start mongod --storageEngine inMemory --port 27018 --dbpath C:/data/dbram
+timeout 5
 start serve -s -l 3648 client-news
 cd news
 start app.exe
