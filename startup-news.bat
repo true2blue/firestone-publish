@@ -7,3 +7,4 @@ start serve -s -l 3648 client-news
 cd news
 start app.exe
 start getRealtimeNews.exe
+start clean-news-data.bat
