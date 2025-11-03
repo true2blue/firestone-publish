@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2025-11-02 22:11:57,743 - getRealtimeNews - ERROR - Error in news task: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#area_szyw"}
   (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Stacktrace:
@@ -56,3 +57,42 @@ Stacktrace:
 	BaseThreadInitThunk [0x0x7ffb3162259d+29]
 	RtlUserThreadStart [0x0x7ffb3294af78+40]
 
+=======
+2025-11-03 11:16:56,116 - getRealtimeNews - INFO - Strategy Cnbc start
+2025-11-03 11:16:56,124 - getRealtimeNews - INFO - Strategy Cnbc1 start
+2025-11-03 11:16:56,128 - getRealtimeNews - INFO - Strategy Yahoo start
+2025-11-03 11:16:56,131 - getRealtimeNews - INFO - Strategy Wallstreetcn start
+2025-11-03 11:16:56,134 - getRealtimeNews - INFO - Strategy Wallstreetcn1 start
+2025-11-03 11:16:56,138 - getRealtimeNews - INFO - Strategy Jqka start
+2025-11-03 11:16:56,144 - getRealtimeNews - INFO - Strategy Techweb start
+2025-11-03 11:16:56,148 - getRealtimeNews - INFO - Strategy Geekpark start
+2025-11-03 11:16:56,152 - getRealtimeNews - INFO - Strategy Zaobao start
+2025-11-03 11:16:56,155 - getRealtimeNews - INFO - Strategy Zaobao1 start
+2025-11-03 11:16:56,162 - getRealtimeNews - INFO - Strategy Seekingalpha start
+2025-11-03 11:16:56,167 - getRealtimeNews - INFO - Strategy Zhengce start
+2025-11-03 11:16:56,171 - getRealtimeNews - INFO - Strategy Mod start
+2025-11-03 11:16:56,178 - getRealtimeNews - INFO - Strategy Ndrc start
+2025-11-03 11:16:56,182 - getRealtimeNews - INFO - Strategy Most start
+2025-11-03 11:16:56,187 - getRealtimeNews - INFO - Strategy Miit start
+2025-11-03 11:16:56,191 - getRealtimeNews - INFO - Strategy Mof start
+2025-11-03 11:16:56,195 - getRealtimeNews - INFO - Strategy Mohurd start
+2025-11-03 11:16:56,198 - getRealtimeNews - INFO - Strategy Mot start
+2025-11-03 11:16:56,204 - getRealtimeNews - INFO - Strategy Mwr start
+2025-11-03 11:16:56,210 - getRealtimeNews - INFO - Strategy Moa start
+2025-11-03 11:16:56,214 - getRealtimeNews - INFO - Strategy Mofcom start
+2025-11-03 11:16:56,219 - getRealtimeNews - INFO - Strategy Mofcom1 start
+2025-11-03 11:16:56,222 - getRealtimeNews - INFO - Strategy Mct start
+2025-11-03 11:16:56,227 - getRealtimeNews - INFO - Strategy Nhc start
+2025-11-03 11:16:56,231 - getRealtimeNews - INFO - Strategy Pbc start
+2025-11-03 11:16:56,234 - getRealtimeNews - INFO - Strategy Fmprc start
+2025-11-03 11:16:56,237 - getRealtimeNews - INFO - Strategy Ppxw start
+2025-11-03 11:16:56,243 - getRealtimeNews - INFO - Strategy Ygw start
+2025-11-03 11:16:56,248 - getRealtimeNews - INFO - Strategy Xhw start
+2025-11-03 11:16:56,255 - getRealtimeNews - INFO - Strategy Zgrbw start
+2025-11-03 11:16:56,260 - getRealtimeNews - INFO - Strategy Rmw start
+2025-11-03 11:16:56,264 - getRealtimeNews - INFO - Strategy Biztoc start
+2025-11-03 11:16:56,269 - getRealtimeNews - INFO - Strategy Finviz start
+2025-11-03 11:16:56,273 - getRealtimeNews - INFO - Strategy Ft start
+2025-11-03 11:16:56,279 - getRealtimeNews - INFO - Strategy Ft-china start
+2025-11-03 11:16:56,283 - getRealtimeNews - INFO - Strategy Yahoo start
+>>>>>>> 2053c59c17ca50783d447012f5d6632124ce9b63
