@@ -1,151 +1,188 @@
-2025-10-11 22:52:14,164 - getRealtimeNews - INFO - Strategy Finviz start
-2025-10-11 23:15:01,939 - getRealtimeNews - INFO - Strategy Finviz start
-2025-10-11 23:15:01,943 - getRealtimeNews - INFO - Strategy Biztoc start
-2025-10-11 23:15:01,949 - getRealtimeNews - INFO - Strategy Wallstreetcn start
-2025-10-11 23:15:01,957 - getRealtimeNews - INFO - Strategy Jqka start
-2025-10-11 23:15:01,963 - getRealtimeNews - INFO - Strategy Techweb start
-2025-10-11 23:15:01,970 - getRealtimeNews - INFO - Strategy Geekpark start
-2025-10-11 23:15:01,975 - getRealtimeNews - INFO - Strategy Zaobao start
-2025-10-11 23:15:01,980 - getRealtimeNews - INFO - Strategy Seekingalpha start
-2025-10-11 23:15:01,986 - getRealtimeNews - INFO - Strategy Zhengce start
-2025-10-11 23:15:01,993 - getRealtimeNews - INFO - Strategy Mod start
-2025-10-11 23:15:02,002 - getRealtimeNews - INFO - Strategy Ndrc start
-2025-10-11 23:15:02,011 - getRealtimeNews - INFO - Strategy Most start
-2025-10-11 23:15:02,021 - getRealtimeNews - INFO - Strategy Miit start
-2025-10-11 23:15:02,026 - getRealtimeNews - INFO - Strategy Mof start
-2025-10-11 23:15:02,039 - getRealtimeNews - INFO - Strategy Mohurd start
-2025-10-11 23:15:02,047 - getRealtimeNews - INFO - Strategy Mot start
-2025-10-11 23:15:02,060 - getRealtimeNews - INFO - Strategy Mwr start
-2025-10-11 23:15:02,065 - getRealtimeNews - INFO - Strategy Moa start
-2025-10-11 23:15:02,074 - getRealtimeNews - INFO - Strategy Mofcom start
-2025-10-11 23:15:02,078 - getRealtimeNews - INFO - Strategy Mofcom1 start
-2025-10-11 23:15:02,081 - getRealtimeNews - INFO - Strategy Mct start
-2025-10-11 23:15:02,090 - getRealtimeNews - INFO - Strategy Nhc start
-2025-10-11 23:15:02,095 - getRealtimeNews - INFO - Strategy Pbc start
-2025-10-11 23:15:02,099 - getRealtimeNews - INFO - Strategy Fmprc start
-2025-10-11 23:15:02,107 - getRealtimeNews - INFO - Strategy Ppxw start
-2025-10-11 23:15:02,112 - getRealtimeNews - INFO - Strategy Ygw start
-2025-10-11 23:15:02,118 - getRealtimeNews - INFO - Strategy Xhw start
-2025-10-11 23:15:02,132 - getRealtimeNews - INFO - Strategy Zgrbw start
-2025-10-11 23:15:02,142 - getRealtimeNews - INFO - Strategy Rmw start
-2025-10-11 23:15:12,536 - getRealtimeNews - ERROR - Error in news task: Message: no such element: Unable to locate element: {"method":"css selector","selector":".styled-table-new.is-rounded.table-fixed"}
-  (Session info: chrome=141.0.7390.65); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6bf36e955+80021]
-	GetHandleVerifier [0x0x7ff6bf36e9b0+80112]
-	(No symbol) [0x0x7ff6bf0f060f]
-	(No symbol) [0x0x7ff6bf148854]
-	(No symbol) [0x0x7ff6bf148b1c]
-	(No symbol) [0x0x7ff6bf19c927]
-	(No symbol) [0x0x7ff6bf17126f]
-	(No symbol) [0x0x7ff6bf19968a]
-	(No symbol) [0x0x7ff6bf171003]
-	(No symbol) [0x0x7ff6bf1395d1]
-	(No symbol) [0x0x7ff6bf13a3f3]
-	GetHandleVerifier [0x0x7ff6bf62dd0d+2960461]
-	GetHandleVerifier [0x0x7ff6bf627fca+2936586]
-	GetHandleVerifier [0x0x7ff6bf648a07+3070279]
-	GetHandleVerifier [0x0x7ff6bf38843e+185214]
-	GetHandleVerifier [0x0x7ff6bf38fe8f+216527]
-	GetHandleVerifier [0x0x7ff6bf377b94+117460]
-	GetHandleVerifier [0x0x7ff6bf377d4f+117903]
-	GetHandleVerifier [0x0x7ff6bf35dc28+11112]
-	BaseThreadInitThunk [0x0x7ffc6bab259d+29]
-	RtlUserThreadStart [0x0x7ffc6cbeaf78+40]
+2025-11-03 08:26:38,240 - getRealtimeNews - INFO - Strategy Cnbc start
+2025-11-03 08:26:38,250 - getRealtimeNews - INFO - Strategy Cnbc1 start
+2025-11-03 08:26:38,260 - getRealtimeNews - INFO - Strategy Yahoo start
+2025-11-03 08:26:38,265 - getRealtimeNews - INFO - Strategy Wallstreetcn start
+2025-11-03 08:26:38,276 - getRealtimeNews - INFO - Strategy Jqka start
+2025-11-03 08:26:38,280 - getRealtimeNews - INFO - Strategy Techweb start
+2025-11-03 08:26:38,284 - getRealtimeNews - INFO - Strategy Geekpark start
+2025-11-03 08:26:38,291 - getRealtimeNews - INFO - Strategy Zaobao start
+2025-11-03 08:26:38,296 - getRealtimeNews - INFO - Strategy Zaobao1 start
+2025-11-03 08:26:38,300 - getRealtimeNews - INFO - Strategy Seekingalpha start
+2025-11-03 08:26:38,308 - getRealtimeNews - INFO - Strategy Zhengce start
+2025-11-03 08:26:38,314 - getRealtimeNews - INFO - Strategy Mod start
+2025-11-03 08:26:38,319 - getRealtimeNews - INFO - Strategy Ndrc start
+2025-11-03 08:26:38,325 - getRealtimeNews - INFO - Strategy Most start
+2025-11-03 08:26:38,329 - getRealtimeNews - INFO - Strategy Miit start
+2025-11-03 08:26:38,333 - getRealtimeNews - INFO - Strategy Mof start
+2025-11-03 08:26:38,341 - getRealtimeNews - INFO - Strategy Mohurd start
+2025-11-03 08:26:38,346 - getRealtimeNews - INFO - Strategy Mot start
+2025-11-03 08:26:38,349 - getRealtimeNews - INFO - Strategy Mwr start
+2025-11-03 08:26:38,360 - getRealtimeNews - INFO - Strategy Moa start
+2025-11-03 08:26:38,364 - getRealtimeNews - INFO - Strategy Mofcom start
+2025-11-03 08:26:38,370 - getRealtimeNews - INFO - Strategy Mofcom1 start
+2025-11-03 08:26:38,380 - getRealtimeNews - INFO - Strategy Mct start
+2025-11-03 08:26:38,387 - getRealtimeNews - INFO - Strategy Nhc start
+2025-11-03 08:26:38,395 - getRealtimeNews - INFO - Strategy Pbc start
+2025-11-03 08:26:38,399 - getRealtimeNews - INFO - Strategy Fmprc start
+2025-11-03 08:26:38,407 - getRealtimeNews - INFO - Strategy Ppxw start
+2025-11-03 08:26:38,415 - getRealtimeNews - INFO - Strategy Ygw start
+2025-11-03 08:26:38,425 - getRealtimeNews - INFO - Strategy Xhw start
+2025-11-03 08:26:38,430 - getRealtimeNews - INFO - Strategy Zgrbw start
+2025-11-03 08:26:38,438 - getRealtimeNews - INFO - Strategy Rmw start
+2025-11-03 08:26:38,447 - getRealtimeNews - INFO - Strategy Biztoc start
+2025-11-03 08:26:38,455 - getRealtimeNews - INFO - Strategy Finviz start
+2025-11-03 08:26:38,461 - getRealtimeNews - INFO - Strategy Ft start
+2025-11-03 08:26:38,467 - getRealtimeNews - INFO - Strategy Ft-china start
+2025-11-03 08:26:38,472 - getRealtimeNews - INFO - Strategy Yahoo start
+2025-11-03 08:26:47,328 - getRealtimeNews - ERROR - Error in news task: Message: 
 Traceback (most recent call last):
-  File "getRealtimeNews.py", line 61, in schedule_run
-  File "news\News.py", line 66, in get_news_content
-  File "news\Finviz.py", line 11, in parse_content
-  File "news\News.py", line 49, in find_element_by_css
-  File "selenium\webdriver\remote\webdriver.py", line 748, in find_element
+  File "getRealtimeNews.py", line 77, in schedule_run
+  File "news\News.py", line 65, in get_news_content
+  File "news\News.py", line 30, in load_page
+  File "selenium\webdriver\remote\webdriver.py", line 363, in get
+  File "selenium\webdriver\remote\webdriver.py", line 354, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 193, in check_response
+selenium.common.exceptions.WebDriverException: Message: 
+
+2025-11-03 08:28:38,388 - getRealtimeNews - INFO - Strategy Cnbc start
+2025-11-03 08:28:38,391 - getRealtimeNews - INFO - Strategy Cnbc1 start
+2025-11-03 08:28:38,393 - getRealtimeNews - INFO - Strategy Yahoo start
+2025-11-03 08:28:38,396 - getRealtimeNews - INFO - Strategy Wallstreetcn start
+2025-11-03 08:28:38,401 - getRealtimeNews - INFO - Strategy Jqka start
+2025-11-03 08:28:38,404 - getRealtimeNews - INFO - Strategy Techweb start
+2025-11-03 08:28:38,407 - getRealtimeNews - INFO - Strategy Geekpark start
+2025-11-03 08:28:38,409 - getRealtimeNews - INFO - Strategy Zaobao start
+2025-11-03 08:28:38,413 - getRealtimeNews - INFO - Strategy Zaobao1 start
+2025-11-03 08:28:38,419 - getRealtimeNews - INFO - Strategy Seekingalpha start
+2025-11-03 08:28:38,422 - getRealtimeNews - INFO - Strategy Zhengce start
+2025-11-03 08:28:38,424 - getRealtimeNews - INFO - Strategy Mod start
+2025-11-03 08:28:38,428 - getRealtimeNews - INFO - Strategy Ndrc start
+2025-11-03 08:28:38,430 - getRealtimeNews - INFO - Strategy Most start
+2025-11-03 08:28:38,435 - getRealtimeNews - INFO - Strategy Miit start
+2025-11-03 08:28:38,437 - getRealtimeNews - INFO - Strategy Mof start
+2025-11-03 08:28:38,440 - getRealtimeNews - INFO - Strategy Mohurd start
+2025-11-03 08:28:38,445 - getRealtimeNews - INFO - Strategy Mot start
+2025-11-03 08:28:38,452 - getRealtimeNews - INFO - Strategy Mwr start
+2025-11-03 08:28:38,456 - getRealtimeNews - INFO - Strategy Moa start
+2025-11-03 08:28:38,460 - getRealtimeNews - INFO - Strategy Mofcom start
+2025-11-03 08:28:38,462 - getRealtimeNews - INFO - Strategy Mofcom1 start
+2025-11-03 08:28:38,466 - getRealtimeNews - INFO - Strategy Mct start
+2025-11-03 08:28:38,469 - getRealtimeNews - INFO - Strategy Nhc start
+2025-11-03 08:28:38,473 - getRealtimeNews - INFO - Strategy Pbc start
+2025-11-03 08:28:38,476 - getRealtimeNews - INFO - Strategy Fmprc start
+2025-11-03 08:28:38,479 - getRealtimeNews - INFO - Strategy Ppxw start
+2025-11-03 08:28:38,483 - getRealtimeNews - INFO - Strategy Ygw start
+2025-11-03 08:28:38,486 - getRealtimeNews - INFO - Strategy Xhw start
+2025-11-03 08:28:38,489 - getRealtimeNews - INFO - Strategy Zgrbw start
+2025-11-03 08:28:38,492 - getRealtimeNews - INFO - Strategy Rmw start
+2025-11-03 08:28:38,494 - getRealtimeNews - INFO - Strategy Biztoc start
+2025-11-03 08:28:38,498 - getRealtimeNews - INFO - Strategy Finviz start
+2025-11-03 08:28:38,502 - getRealtimeNews - INFO - Strategy Ft start
+2025-11-03 08:28:38,505 - getRealtimeNews - INFO - Strategy Ft-china start
+2025-11-03 08:28:38,507 - getRealtimeNews - INFO - Strategy Yahoo start
+2025-11-03 08:29:28,244 - getRealtimeNews - ERROR - Error in news task: Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6fb80e955+80021]
+	GetHandleVerifier [0x0x7ff6fb80e9b0+80112]
+	(No symbol) [0x0x7ff6fb59060f]
+	(No symbol) [0x0x7ff6fb58d0bf]
+	(No symbol) [0x0x7ff6fb57dae9]
+	(No symbol) [0x0x7ff6fb57f94e]
+	(No symbol) [0x0x7ff6fb57e0d2]
+	(No symbol) [0x0x7ff6fb57d859]
+	(No symbol) [0x0x7ff6fb57d51d]
+	(No symbol) [0x0x7ff6fb57b08c]
+	(No symbol) [0x0x7ff6fb57b91c]
+	(No symbol) [0x0x7ff6fb5946da]
+	(No symbol) [0x0x7ff6fb63a47e]
+	(No symbol) [0x0x7ff6fb61122a]
+	(No symbol) [0x0x7ff6fb63968a]
+	(No symbol) [0x0x7ff6fb611003]
+	(No symbol) [0x0x7ff6fb5d95d1]
+	(No symbol) [0x0x7ff6fb5da3f3]
+	GetHandleVerifier [0x0x7ff6fbacdd0d+2960461]
+	GetHandleVerifier [0x0x7ff6fbac7fca+2936586]
+	GetHandleVerifier [0x0x7ff6fbae8a07+3070279]
+	GetHandleVerifier [0x0x7ff6fb82843e+185214]
+	GetHandleVerifier [0x0x7ff6fb82fe8f+216527]
+	GetHandleVerifier [0x0x7ff6fb817b94+117460]
+	GetHandleVerifier [0x0x7ff6fb817d4f+117903]
+	GetHandleVerifier [0x0x7ff6fb7fdc28+11112]
+	BaseThreadInitThunk [0x0x7ff9a151e8d7+23]
+	RtlUserThreadStart [0x0x7ff9a256c53c+44]
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 77, in schedule_run
+  File "news\News.py", line 65, in get_news_content
+  File "news\News.py", line 30, in load_page
+  File "selenium\webdriver\remote\webdriver.py", line 363, in get
   File "selenium\webdriver\remote\webdriver.py", line 354, in execute
   File "selenium\webdriver\remote\errorhandler.py", line 229, in check_response
-selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".styled-table-new.is-rounded.table-fixed"}
-  (Session info: chrome=141.0.7390.65); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=141.0.7390.123)
 Stacktrace:
-	GetHandleVerifier [0x0x7ff6bf36e955+80021]
-	GetHandleVerifier [0x0x7ff6bf36e9b0+80112]
-	(No symbol) [0x0x7ff6bf0f060f]
-	(No symbol) [0x0x7ff6bf148854]
-	(No symbol) [0x0x7ff6bf148b1c]
-	(No symbol) [0x0x7ff6bf19c927]
-	(No symbol) [0x0x7ff6bf17126f]
-	(No symbol) [0x0x7ff6bf19968a]
-	(No symbol) [0x0x7ff6bf171003]
-	(No symbol) [0x0x7ff6bf1395d1]
-	(No symbol) [0x0x7ff6bf13a3f3]
-	GetHandleVerifier [0x0x7ff6bf62dd0d+2960461]
-	GetHandleVerifier [0x0x7ff6bf627fca+2936586]
-	GetHandleVerifier [0x0x7ff6bf648a07+3070279]
-	GetHandleVerifier [0x0x7ff6bf38843e+185214]
-	GetHandleVerifier [0x0x7ff6bf38fe8f+216527]
-	GetHandleVerifier [0x0x7ff6bf377b94+117460]
-	GetHandleVerifier [0x0x7ff6bf377d4f+117903]
-	GetHandleVerifier [0x0x7ff6bf35dc28+11112]
-	BaseThreadInitThunk [0x0x7ffc6bab259d+29]
-	RtlUserThreadStart [0x0x7ffc6cbeaf78+40]
+	GetHandleVerifier [0x0x7ff6fb80e955+80021]
+	GetHandleVerifier [0x0x7ff6fb80e9b0+80112]
+	(No symbol) [0x0x7ff6fb59060f]
+	(No symbol) [0x0x7ff6fb58d0bf]
+	(No symbol) [0x0x7ff6fb57dae9]
+	(No symbol) [0x0x7ff6fb57f94e]
+	(No symbol) [0x0x7ff6fb57e0d2]
+	(No symbol) [0x0x7ff6fb57d859]
+	(No symbol) [0x0x7ff6fb57d51d]
+	(No symbol) [0x0x7ff6fb57b08c]
+	(No symbol) [0x0x7ff6fb57b91c]
+	(No symbol) [0x0x7ff6fb5946da]
+	(No symbol) [0x0x7ff6fb63a47e]
+	(No symbol) [0x0x7ff6fb61122a]
+	(No symbol) [0x0x7ff6fb63968a]
+	(No symbol) [0x0x7ff6fb611003]
+	(No symbol) [0x0x7ff6fb5d95d1]
+	(No symbol) [0x0x7ff6fb5da3f3]
+	GetHandleVerifier [0x0x7ff6fbacdd0d+2960461]
+	GetHandleVerifier [0x0x7ff6fbac7fca+2936586]
+	GetHandleVerifier [0x0x7ff6fbae8a07+3070279]
+	GetHandleVerifier [0x0x7ff6fb82843e+185214]
+	GetHandleVerifier [0x0x7ff6fb82fe8f+216527]
+	GetHandleVerifier [0x0x7ff6fb817b94+117460]
+	GetHandleVerifier [0x0x7ff6fb817d4f+117903]
+	GetHandleVerifier [0x0x7ff6fb7fdc28+11112]
+	BaseThreadInitThunk [0x0x7ff9a151e8d7+23]
+	RtlUserThreadStart [0x0x7ff9a256c53c+44]
 
-2025-10-11 23:18:12,616 - getRealtimeNews - ERROR - Error in news task: list index out of range
-Traceback (most recent call last):
-  File "getRealtimeNews.py", line 61, in schedule_run
-  File "news\News.py", line 66, in get_news_content
-  File "news\Seekingalpha.py", line 10, in parse_content
-IndexError: list index out of range
-2025-10-11 23:21:00,222 - getRealtimeNews - ERROR - Error in news task: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#area_szyw"}
-  (Session info: chrome=141.0.7390.65); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6bf36e955+80021]
-	GetHandleVerifier [0x0x7ff6bf36e9b0+80112]
-	(No symbol) [0x0x7ff6bf0f060f]
-	(No symbol) [0x0x7ff6bf148854]
-	(No symbol) [0x0x7ff6bf148b1c]
-	(No symbol) [0x0x7ff6bf19c927]
-	(No symbol) [0x0x7ff6bf17126f]
-	(No symbol) [0x0x7ff6bf19968a]
-	(No symbol) [0x0x7ff6bf171003]
-	(No symbol) [0x0x7ff6bf1395d1]
-	(No symbol) [0x0x7ff6bf13a3f3]
-	GetHandleVerifier [0x0x7ff6bf62dd0d+2960461]
-	GetHandleVerifier [0x0x7ff6bf627fca+2936586]
-	GetHandleVerifier [0x0x7ff6bf648a07+3070279]
-	GetHandleVerifier [0x0x7ff6bf38843e+185214]
-	GetHandleVerifier [0x0x7ff6bf38fe8f+216527]
-	GetHandleVerifier [0x0x7ff6bf377b94+117460]
-	GetHandleVerifier [0x0x7ff6bf377d4f+117903]
-	GetHandleVerifier [0x0x7ff6bf35dc28+11112]
-	BaseThreadInitThunk [0x0x7ffc6bab259d+29]
-	RtlUserThreadStart [0x0x7ffc6cbeaf78+40]
-Traceback (most recent call last):
-  File "getRealtimeNews.py", line 61, in schedule_run
-  File "news\News.py", line 66, in get_news_content
-  File "news\Mwr.py", line 9, in parse_content
-  File "news\News.py", line 131, in parse_block
-  File "news\News.py", line 49, in find_element_by_css
-  File "selenium\webdriver\remote\webdriver.py", line 748, in find_element
-  File "selenium\webdriver\remote\webdriver.py", line 354, in execute
-  File "selenium\webdriver\remote\errorhandler.py", line 229, in check_response
-selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#area_szyw"}
-  (Session info: chrome=141.0.7390.65); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6bf36e955+80021]
-	GetHandleVerifier [0x0x7ff6bf36e9b0+80112]
-	(No symbol) [0x0x7ff6bf0f060f]
-	(No symbol) [0x0x7ff6bf148854]
-	(No symbol) [0x0x7ff6bf148b1c]
-	(No symbol) [0x0x7ff6bf19c927]
-	(No symbol) [0x0x7ff6bf17126f]
-	(No symbol) [0x0x7ff6bf19968a]
-	(No symbol) [0x0x7ff6bf171003]
-	(No symbol) [0x0x7ff6bf1395d1]
-	(No symbol) [0x0x7ff6bf13a3f3]
-	GetHandleVerifier [0x0x7ff6bf62dd0d+2960461]
-	GetHandleVerifier [0x0x7ff6bf627fca+2936586]
-	GetHandleVerifier [0x0x7ff6bf648a07+3070279]
-	GetHandleVerifier [0x0x7ff6bf38843e+185214]
-	GetHandleVerifier [0x0x7ff6bf38fe8f+216527]
-	GetHandleVerifier [0x0x7ff6bf377b94+117460]
-	GetHandleVerifier [0x0x7ff6bf377d4f+117903]
-	GetHandleVerifier [0x0x7ff6bf35dc28+11112]
-	BaseThreadInitThunk [0x0x7ffc6bab259d+29]
-	RtlUserThreadStart [0x0x7ffc6cbeaf78+40]
-
+2025-11-03 08:33:02,260 - getRealtimeNews - INFO - Strategy Cnbc start
+2025-11-03 08:33:02,269 - getRealtimeNews - INFO - Strategy Cnbc1 start
+2025-11-03 08:33:02,278 - getRealtimeNews - INFO - Strategy Yahoo start
+2025-11-03 08:33:02,286 - getRealtimeNews - INFO - Strategy Wallstreetcn start
+2025-11-03 08:33:02,293 - getRealtimeNews - INFO - Strategy Jqka start
+2025-11-03 08:33:02,299 - getRealtimeNews - INFO - Strategy Techweb start
+2025-11-03 08:33:02,304 - getRealtimeNews - INFO - Strategy Geekpark start
+2025-11-03 08:33:02,310 - getRealtimeNews - INFO - Strategy Zaobao start
+2025-11-03 08:33:02,318 - getRealtimeNews - INFO - Strategy Zaobao1 start
+2025-11-03 08:33:02,323 - getRealtimeNews - INFO - Strategy Seekingalpha start
+2025-11-03 08:33:02,330 - getRealtimeNews - INFO - Strategy Zhengce start
+2025-11-03 08:33:02,335 - getRealtimeNews - INFO - Strategy Mod start
+2025-11-03 08:33:02,342 - getRealtimeNews - INFO - Strategy Ndrc start
+2025-11-03 08:33:02,346 - getRealtimeNews - INFO - Strategy Most start
+2025-11-03 08:33:02,352 - getRealtimeNews - INFO - Strategy Miit start
+2025-11-03 08:33:02,356 - getRealtimeNews - INFO - Strategy Mof start
+2025-11-03 08:33:02,364 - getRealtimeNews - INFO - Strategy Mohurd start
+2025-11-03 08:33:02,369 - getRealtimeNews - INFO - Strategy Mot start
+2025-11-03 08:33:02,374 - getRealtimeNews - INFO - Strategy Mwr start
+2025-11-03 08:33:02,382 - getRealtimeNews - INFO - Strategy Moa start
+2025-11-03 08:33:02,386 - getRealtimeNews - INFO - Strategy Mofcom start
+2025-11-03 08:33:02,391 - getRealtimeNews - INFO - Strategy Mofcom1 start
+2025-11-03 08:33:02,397 - getRealtimeNews - INFO - Strategy Mct start
+2025-11-03 08:33:02,400 - getRealtimeNews - INFO - Strategy Nhc start
+2025-11-03 08:33:02,404 - getRealtimeNews - INFO - Strategy Pbc start
+2025-11-03 08:33:02,411 - getRealtimeNews - INFO - Strategy Fmprc start
+2025-11-03 08:33:02,416 - getRealtimeNews - INFO - Strategy Ppxw start
+2025-11-03 08:33:02,420 - getRealtimeNews - INFO - Strategy Ygw start
+2025-11-03 08:33:02,426 - getRealtimeNews - INFO - Strategy Xhw start
+2025-11-03 08:33:02,432 - getRealtimeNews - INFO - Strategy Zgrbw start
+2025-11-03 08:33:02,436 - getRealtimeNews - INFO - Strategy Rmw start
+2025-11-03 08:33:02,443 - getRealtimeNews - INFO - Strategy Biztoc start
+2025-11-03 08:33:02,449 - getRealtimeNews - INFO - Strategy Finviz start
+2025-11-03 08:33:02,455 - getRealtimeNews - INFO - Strategy Ft start
+2025-11-03 08:33:02,464 - getRealtimeNews - INFO - Strategy Ft-china start
+2025-11-03 08:33:02,469 - getRealtimeNews - INFO - Strategy Yahoo start
