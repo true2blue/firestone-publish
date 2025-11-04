@@ -1,26 +1,25 @@
-<<<<<<< HEAD
-2025-11-02 22:11:57,743 - getRealtimeNews - ERROR - Error in news task: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#area_szyw"}
+2025-11-03 21:14:55,586 - getRealtimeNews - ERROR - Error in news task: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#area_szyw"}
   (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Stacktrace:
-	GetHandleVerifier [0x0x7ff65678e955+80021]
-	GetHandleVerifier [0x0x7ff65678e9b0+80112]
-	(No symbol) [0x0x7ff65651060f]
-	(No symbol) [0x0x7ff656568854]
-	(No symbol) [0x0x7ff656568b1c]
-	(No symbol) [0x0x7ff6565bc927]
-	(No symbol) [0x0x7ff65659126f]
-	(No symbol) [0x0x7ff6565b968a]
-	(No symbol) [0x0x7ff656591003]
-	(No symbol) [0x0x7ff6565595d1]
-	(No symbol) [0x0x7ff65655a3f3]
-	GetHandleVerifier [0x0x7ff656a4dd0d+2960461]
-	GetHandleVerifier [0x0x7ff656a47fca+2936586]
-	GetHandleVerifier [0x0x7ff656a68a07+3070279]
-	GetHandleVerifier [0x0x7ff6567a843e+185214]
-	GetHandleVerifier [0x0x7ff6567afe8f+216527]
-	GetHandleVerifier [0x0x7ff656797b94+117460]
-	GetHandleVerifier [0x0x7ff656797d4f+117903]
-	GetHandleVerifier [0x0x7ff65677dc28+11112]
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff7324b8854]
+	(No symbol) [0x0x7ff7324b8b1c]
+	(No symbol) [0x0x7ff73250c927]
+	(No symbol) [0x0x7ff7324e126f]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
 	BaseThreadInitThunk [0x0x7ffb3162259d+29]
 	RtlUserThreadStart [0x0x7ffb3294af78+40]
 Traceback (most recent call last):
@@ -35,64 +34,1108 @@ Traceback (most recent call last):
 selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#area_szyw"}
   (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Stacktrace:
-	GetHandleVerifier [0x0x7ff65678e955+80021]
-	GetHandleVerifier [0x0x7ff65678e9b0+80112]
-	(No symbol) [0x0x7ff65651060f]
-	(No symbol) [0x0x7ff656568854]
-	(No symbol) [0x0x7ff656568b1c]
-	(No symbol) [0x0x7ff6565bc927]
-	(No symbol) [0x0x7ff65659126f]
-	(No symbol) [0x0x7ff6565b968a]
-	(No symbol) [0x0x7ff656591003]
-	(No symbol) [0x0x7ff6565595d1]
-	(No symbol) [0x0x7ff65655a3f3]
-	GetHandleVerifier [0x0x7ff656a4dd0d+2960461]
-	GetHandleVerifier [0x0x7ff656a47fca+2936586]
-	GetHandleVerifier [0x0x7ff656a68a07+3070279]
-	GetHandleVerifier [0x0x7ff6567a843e+185214]
-	GetHandleVerifier [0x0x7ff6567afe8f+216527]
-	GetHandleVerifier [0x0x7ff656797b94+117460]
-	GetHandleVerifier [0x0x7ff656797d4f+117903]
-	GetHandleVerifier [0x0x7ff65677dc28+11112]
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff7324b8854]
+	(No symbol) [0x0x7ff7324b8b1c]
+	(No symbol) [0x0x7ff73250c927]
+	(No symbol) [0x0x7ff7324e126f]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
 	BaseThreadInitThunk [0x0x7ffb3162259d+29]
 	RtlUserThreadStart [0x0x7ffb3294af78+40]
 
-=======
-2025-11-03 11:16:56,116 - getRealtimeNews - INFO - Strategy Cnbc start
-2025-11-03 11:16:56,124 - getRealtimeNews - INFO - Strategy Cnbc1 start
-2025-11-03 11:16:56,128 - getRealtimeNews - INFO - Strategy Yahoo start
-2025-11-03 11:16:56,131 - getRealtimeNews - INFO - Strategy Wallstreetcn start
-2025-11-03 11:16:56,134 - getRealtimeNews - INFO - Strategy Wallstreetcn1 start
-2025-11-03 11:16:56,138 - getRealtimeNews - INFO - Strategy Jqka start
-2025-11-03 11:16:56,144 - getRealtimeNews - INFO - Strategy Techweb start
-2025-11-03 11:16:56,148 - getRealtimeNews - INFO - Strategy Geekpark start
-2025-11-03 11:16:56,152 - getRealtimeNews - INFO - Strategy Zaobao start
-2025-11-03 11:16:56,155 - getRealtimeNews - INFO - Strategy Zaobao1 start
-2025-11-03 11:16:56,162 - getRealtimeNews - INFO - Strategy Seekingalpha start
-2025-11-03 11:16:56,167 - getRealtimeNews - INFO - Strategy Zhengce start
-2025-11-03 11:16:56,171 - getRealtimeNews - INFO - Strategy Mod start
-2025-11-03 11:16:56,178 - getRealtimeNews - INFO - Strategy Ndrc start
-2025-11-03 11:16:56,182 - getRealtimeNews - INFO - Strategy Most start
-2025-11-03 11:16:56,187 - getRealtimeNews - INFO - Strategy Miit start
-2025-11-03 11:16:56,191 - getRealtimeNews - INFO - Strategy Mof start
-2025-11-03 11:16:56,195 - getRealtimeNews - INFO - Strategy Mohurd start
-2025-11-03 11:16:56,198 - getRealtimeNews - INFO - Strategy Mot start
-2025-11-03 11:16:56,204 - getRealtimeNews - INFO - Strategy Mwr start
-2025-11-03 11:16:56,210 - getRealtimeNews - INFO - Strategy Moa start
-2025-11-03 11:16:56,214 - getRealtimeNews - INFO - Strategy Mofcom start
-2025-11-03 11:16:56,219 - getRealtimeNews - INFO - Strategy Mofcom1 start
-2025-11-03 11:16:56,222 - getRealtimeNews - INFO - Strategy Mct start
-2025-11-03 11:16:56,227 - getRealtimeNews - INFO - Strategy Nhc start
-2025-11-03 11:16:56,231 - getRealtimeNews - INFO - Strategy Pbc start
-2025-11-03 11:16:56,234 - getRealtimeNews - INFO - Strategy Fmprc start
-2025-11-03 11:16:56,237 - getRealtimeNews - INFO - Strategy Ppxw start
-2025-11-03 11:16:56,243 - getRealtimeNews - INFO - Strategy Ygw start
-2025-11-03 11:16:56,248 - getRealtimeNews - INFO - Strategy Xhw start
-2025-11-03 11:16:56,255 - getRealtimeNews - INFO - Strategy Zgrbw start
-2025-11-03 11:16:56,260 - getRealtimeNews - INFO - Strategy Rmw start
-2025-11-03 11:16:56,264 - getRealtimeNews - INFO - Strategy Biztoc start
-2025-11-03 11:16:56,269 - getRealtimeNews - INFO - Strategy Finviz start
-2025-11-03 11:16:56,273 - getRealtimeNews - INFO - Strategy Ft start
-2025-11-03 11:16:56,279 - getRealtimeNews - INFO - Strategy Ft-china start
-2025-11-03 11:16:56,283 - getRealtimeNews - INFO - Strategy Yahoo start
->>>>>>> 2053c59c17ca50783d447012f5d6632124ce9b63
+2025-11-03 21:39:25,361 - getRealtimeNews - ERROR - Error in news task: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test-id="cards-body"] > div"}
+  (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff7324b8854]
+	(No symbol) [0x0x7ff7324b8b1c]
+	(No symbol) [0x0x7ff73250c927]
+	(No symbol) [0x0x7ff7324e126f]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 77, in schedule_run
+  File "news\News.py", line 66, in get_news_content
+  File "news\Seekingalpha.py", line 10, in parse_content
+  File "news\News.py", line 49, in find_element_by_css
+  File "selenium\webdriver\remote\webdriver.py", line 748, in find_element
+  File "selenium\webdriver\remote\webdriver.py", line 354, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test-id="cards-body"] > div"}
+  (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff7324b8854]
+	(No symbol) [0x0x7ff7324b8b1c]
+	(No symbol) [0x0x7ff73250c927]
+	(No symbol) [0x0x7ff7324e126f]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+
+2025-11-03 21:40:56,103 - getRealtimeNews - ERROR - Error in news task: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#area_szyw"}
+  (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff7324b8854]
+	(No symbol) [0x0x7ff7324b8b1c]
+	(No symbol) [0x0x7ff73250c927]
+	(No symbol) [0x0x7ff7324e126f]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 77, in schedule_run
+  File "news\News.py", line 66, in get_news_content
+  File "news\Mwr.py", line 10, in parse_content
+  File "news\News.py", line 131, in parse_block
+  File "news\News.py", line 49, in find_element_by_css
+  File "selenium\webdriver\remote\webdriver.py", line 748, in find_element
+  File "selenium\webdriver\remote\webdriver.py", line 354, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#area_szyw"}
+  (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff7324b8854]
+	(No symbol) [0x0x7ff7324b8b1c]
+	(No symbol) [0x0x7ff73250c927]
+	(No symbol) [0x0x7ff7324e126f]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+
+2025-11-03 22:07:13,463 - getRealtimeNews - ERROR - Error in news task: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff73245d0bf]
+	(No symbol) [0x0x7ff73244dae9]
+	(No symbol) [0x0x7ff73244f94e]
+	(No symbol) [0x0x7ff73244e0d2]
+	(No symbol) [0x0x7ff73244d859]
+	(No symbol) [0x0x7ff73244d51d]
+	(No symbol) [0x0x7ff73244b08c]
+	(No symbol) [0x0x7ff73244b91c]
+	(No symbol) [0x0x7ff7324646da]
+	(No symbol) [0x0x7ff73250a47e]
+	(No symbol) [0x0x7ff7324e122a]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 77, in schedule_run
+  File "news\News.py", line 65, in get_news_content
+  File "news\News.py", line 30, in load_page
+  File "selenium\webdriver\remote\webdriver.py", line 363, in get
+  File "selenium\webdriver\remote\webdriver.py", line 354, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff73245d0bf]
+	(No symbol) [0x0x7ff73244dae9]
+	(No symbol) [0x0x7ff73244f94e]
+	(No symbol) [0x0x7ff73244e0d2]
+	(No symbol) [0x0x7ff73244d859]
+	(No symbol) [0x0x7ff73244d51d]
+	(No symbol) [0x0x7ff73244b08c]
+	(No symbol) [0x0x7ff73244b91c]
+	(No symbol) [0x0x7ff7324646da]
+	(No symbol) [0x0x7ff73250a47e]
+	(No symbol) [0x0x7ff7324e122a]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+
+2025-11-03 22:07:19,627 - getRealtimeNews - ERROR - Error in news task: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff73245d0bf]
+	(No symbol) [0x0x7ff73244dae9]
+	(No symbol) [0x0x7ff73244f94e]
+	(No symbol) [0x0x7ff73244e0d2]
+	(No symbol) [0x0x7ff73244d859]
+	(No symbol) [0x0x7ff73244d51d]
+	(No symbol) [0x0x7ff73244b08c]
+	(No symbol) [0x0x7ff73244b91c]
+	(No symbol) [0x0x7ff7324646da]
+	(No symbol) [0x0x7ff73250a47e]
+	(No symbol) [0x0x7ff7324e122a]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 77, in schedule_run
+  File "news\News.py", line 65, in get_news_content
+  File "news\News.py", line 30, in load_page
+  File "selenium\webdriver\remote\webdriver.py", line 363, in get
+  File "selenium\webdriver\remote\webdriver.py", line 354, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff73245d0bf]
+	(No symbol) [0x0x7ff73244dae9]
+	(No symbol) [0x0x7ff73244f94e]
+	(No symbol) [0x0x7ff73244e0d2]
+	(No symbol) [0x0x7ff73244d859]
+	(No symbol) [0x0x7ff73244d51d]
+	(No symbol) [0x0x7ff73244b08c]
+	(No symbol) [0x0x7ff73244b91c]
+	(No symbol) [0x0x7ff7324646da]
+	(No symbol) [0x0x7ff73250a47e]
+	(No symbol) [0x0x7ff7324e122a]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+
+2025-11-03 22:07:23,800 - getRealtimeNews - ERROR - Error in news task: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff73245d0bf]
+	(No symbol) [0x0x7ff73244dae9]
+	(No symbol) [0x0x7ff73244f94e]
+	(No symbol) [0x0x7ff73244e0d2]
+	(No symbol) [0x0x7ff73244d859]
+	(No symbol) [0x0x7ff73244d51d]
+	(No symbol) [0x0x7ff73244b08c]
+	(No symbol) [0x0x7ff73244b91c]
+	(No symbol) [0x0x7ff7324646da]
+	(No symbol) [0x0x7ff73250a47e]
+	(No symbol) [0x0x7ff7324e122a]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 77, in schedule_run
+  File "news\News.py", line 65, in get_news_content
+  File "news\News.py", line 30, in load_page
+  File "selenium\webdriver\remote\webdriver.py", line 363, in get
+  File "selenium\webdriver\remote\webdriver.py", line 354, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff73245d0bf]
+	(No symbol) [0x0x7ff73244dae9]
+	(No symbol) [0x0x7ff73244f94e]
+	(No symbol) [0x0x7ff73244e0d2]
+	(No symbol) [0x0x7ff73244d859]
+	(No symbol) [0x0x7ff73244d51d]
+	(No symbol) [0x0x7ff73244b08c]
+	(No symbol) [0x0x7ff73244b91c]
+	(No symbol) [0x0x7ff7324646da]
+	(No symbol) [0x0x7ff73250a47e]
+	(No symbol) [0x0x7ff7324e122a]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+
+2025-11-03 22:07:26,142 - getRealtimeNews - ERROR - Error in news task: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff73245d0bf]
+	(No symbol) [0x0x7ff73244dae9]
+	(No symbol) [0x0x7ff73244f94e]
+	(No symbol) [0x0x7ff73244e0d2]
+	(No symbol) [0x0x7ff73244d859]
+	(No symbol) [0x0x7ff73244d51d]
+	(No symbol) [0x0x7ff73244b08c]
+	(No symbol) [0x0x7ff73244b91c]
+	(No symbol) [0x0x7ff7324646da]
+	(No symbol) [0x0x7ff73250a47e]
+	(No symbol) [0x0x7ff7324e122a]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 77, in schedule_run
+  File "news\News.py", line 65, in get_news_content
+  File "news\News.py", line 30, in load_page
+  File "selenium\webdriver\remote\webdriver.py", line 363, in get
+  File "selenium\webdriver\remote\webdriver.py", line 354, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff73245d0bf]
+	(No symbol) [0x0x7ff73244dae9]
+	(No symbol) [0x0x7ff73244f94e]
+	(No symbol) [0x0x7ff73244e0d2]
+	(No symbol) [0x0x7ff73244d859]
+	(No symbol) [0x0x7ff73244d51d]
+	(No symbol) [0x0x7ff73244b08c]
+	(No symbol) [0x0x7ff73244b91c]
+	(No symbol) [0x0x7ff7324646da]
+	(No symbol) [0x0x7ff73250a47e]
+	(No symbol) [0x0x7ff7324e122a]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+
+2025-11-03 22:07:32,354 - getRealtimeNews - ERROR - Error in news task: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff73245d0bf]
+	(No symbol) [0x0x7ff73244dae9]
+	(No symbol) [0x0x7ff73244f94e]
+	(No symbol) [0x0x7ff73244e0d2]
+	(No symbol) [0x0x7ff73244d859]
+	(No symbol) [0x0x7ff73244d51d]
+	(No symbol) [0x0x7ff73244b08c]
+	(No symbol) [0x0x7ff73244b91c]
+	(No symbol) [0x0x7ff7324646da]
+	(No symbol) [0x0x7ff73250a47e]
+	(No symbol) [0x0x7ff7324e122a]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 77, in schedule_run
+  File "news\News.py", line 65, in get_news_content
+  File "news\News.py", line 30, in load_page
+  File "selenium\webdriver\remote\webdriver.py", line 363, in get
+  File "selenium\webdriver\remote\webdriver.py", line 354, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff73245d0bf]
+	(No symbol) [0x0x7ff73244dae9]
+	(No symbol) [0x0x7ff73244f94e]
+	(No symbol) [0x0x7ff73244e0d2]
+	(No symbol) [0x0x7ff73244d859]
+	(No symbol) [0x0x7ff73244d51d]
+	(No symbol) [0x0x7ff73244b08c]
+	(No symbol) [0x0x7ff73244b91c]
+	(No symbol) [0x0x7ff7324646da]
+	(No symbol) [0x0x7ff73250a47e]
+	(No symbol) [0x0x7ff7324e122a]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+
+2025-11-03 22:07:36,484 - getRealtimeNews - ERROR - Error in news task: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff73245d0bf]
+	(No symbol) [0x0x7ff73244dae9]
+	(No symbol) [0x0x7ff73244f94e]
+	(No symbol) [0x0x7ff73244e0d2]
+	(No symbol) [0x0x7ff73244d859]
+	(No symbol) [0x0x7ff73244d51d]
+	(No symbol) [0x0x7ff73244b08c]
+	(No symbol) [0x0x7ff73244b91c]
+	(No symbol) [0x0x7ff7324646da]
+	(No symbol) [0x0x7ff73250a47e]
+	(No symbol) [0x0x7ff7324e122a]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 77, in schedule_run
+  File "news\News.py", line 65, in get_news_content
+  File "news\News.py", line 30, in load_page
+  File "selenium\webdriver\remote\webdriver.py", line 363, in get
+  File "selenium\webdriver\remote\webdriver.py", line 354, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff73245d0bf]
+	(No symbol) [0x0x7ff73244dae9]
+	(No symbol) [0x0x7ff73244f94e]
+	(No symbol) [0x0x7ff73244e0d2]
+	(No symbol) [0x0x7ff73244d859]
+	(No symbol) [0x0x7ff73244d51d]
+	(No symbol) [0x0x7ff73244b08c]
+	(No symbol) [0x0x7ff73244b91c]
+	(No symbol) [0x0x7ff7324646da]
+	(No symbol) [0x0x7ff73250a47e]
+	(No symbol) [0x0x7ff7324e122a]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+
+2025-11-03 22:07:40,618 - getRealtimeNews - ERROR - Error in news task: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff73245d0bf]
+	(No symbol) [0x0x7ff73244dae9]
+	(No symbol) [0x0x7ff73244f94e]
+	(No symbol) [0x0x7ff73244e0d2]
+	(No symbol) [0x0x7ff73244d859]
+	(No symbol) [0x0x7ff73244d51d]
+	(No symbol) [0x0x7ff73244b08c]
+	(No symbol) [0x0x7ff73244b91c]
+	(No symbol) [0x0x7ff7324646da]
+	(No symbol) [0x0x7ff73250a47e]
+	(No symbol) [0x0x7ff7324e122a]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 77, in schedule_run
+  File "news\News.py", line 65, in get_news_content
+  File "news\News.py", line 30, in load_page
+  File "selenium\webdriver\remote\webdriver.py", line 363, in get
+  File "selenium\webdriver\remote\webdriver.py", line 354, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff73245d0bf]
+	(No symbol) [0x0x7ff73244dae9]
+	(No symbol) [0x0x7ff73244f94e]
+	(No symbol) [0x0x7ff73244e0d2]
+	(No symbol) [0x0x7ff73244d859]
+	(No symbol) [0x0x7ff73244d51d]
+	(No symbol) [0x0x7ff73244b08c]
+	(No symbol) [0x0x7ff73244b91c]
+	(No symbol) [0x0x7ff7324646da]
+	(No symbol) [0x0x7ff73250a47e]
+	(No symbol) [0x0x7ff7324e122a]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+
+2025-11-03 22:07:44,765 - getRealtimeNews - ERROR - Error in news task: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff73245d0bf]
+	(No symbol) [0x0x7ff73244dae9]
+	(No symbol) [0x0x7ff73244f94e]
+	(No symbol) [0x0x7ff73244e0d2]
+	(No symbol) [0x0x7ff73244d859]
+	(No symbol) [0x0x7ff73244d51d]
+	(No symbol) [0x0x7ff73244b08c]
+	(No symbol) [0x0x7ff73244b91c]
+	(No symbol) [0x0x7ff7324646da]
+	(No symbol) [0x0x7ff73250a47e]
+	(No symbol) [0x0x7ff7324e122a]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 77, in schedule_run
+  File "news\News.py", line 65, in get_news_content
+  File "news\News.py", line 30, in load_page
+  File "selenium\webdriver\remote\webdriver.py", line 363, in get
+  File "selenium\webdriver\remote\webdriver.py", line 354, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff73245d0bf]
+	(No symbol) [0x0x7ff73244dae9]
+	(No symbol) [0x0x7ff73244f94e]
+	(No symbol) [0x0x7ff73244e0d2]
+	(No symbol) [0x0x7ff73244d859]
+	(No symbol) [0x0x7ff73244d51d]
+	(No symbol) [0x0x7ff73244b08c]
+	(No symbol) [0x0x7ff73244b91c]
+	(No symbol) [0x0x7ff7324646da]
+	(No symbol) [0x0x7ff73250a47e]
+	(No symbol) [0x0x7ff7324e122a]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+
+2025-11-03 22:07:47,065 - getRealtimeNews - ERROR - Error in news task: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff73245d0bf]
+	(No symbol) [0x0x7ff73244dae9]
+	(No symbol) [0x0x7ff73244f94e]
+	(No symbol) [0x0x7ff73244e0d2]
+	(No symbol) [0x0x7ff73244d859]
+	(No symbol) [0x0x7ff73244d51d]
+	(No symbol) [0x0x7ff73244b08c]
+	(No symbol) [0x0x7ff73244b91c]
+	(No symbol) [0x0x7ff7324646da]
+	(No symbol) [0x0x7ff73250a47e]
+	(No symbol) [0x0x7ff7324e122a]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 77, in schedule_run
+  File "news\News.py", line 65, in get_news_content
+  File "news\News.py", line 30, in load_page
+  File "selenium\webdriver\remote\webdriver.py", line 363, in get
+  File "selenium\webdriver\remote\webdriver.py", line 354, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff73245d0bf]
+	(No symbol) [0x0x7ff73244dae9]
+	(No symbol) [0x0x7ff73244f94e]
+	(No symbol) [0x0x7ff73244e0d2]
+	(No symbol) [0x0x7ff73244d859]
+	(No symbol) [0x0x7ff73244d51d]
+	(No symbol) [0x0x7ff73244b08c]
+	(No symbol) [0x0x7ff73244b91c]
+	(No symbol) [0x0x7ff7324646da]
+	(No symbol) [0x0x7ff73250a47e]
+	(No symbol) [0x0x7ff7324e122a]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+
+2025-11-03 22:07:52,502 - getRealtimeNews - ERROR - Error in news task: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff73245d0bf]
+	(No symbol) [0x0x7ff73244dae9]
+	(No symbol) [0x0x7ff73244f94e]
+	(No symbol) [0x0x7ff73244e0d2]
+	(No symbol) [0x0x7ff73244d859]
+	(No symbol) [0x0x7ff73244d51d]
+	(No symbol) [0x0x7ff73244b08c]
+	(No symbol) [0x0x7ff73244b91c]
+	(No symbol) [0x0x7ff7324646da]
+	(No symbol) [0x0x7ff73250a47e]
+	(No symbol) [0x0x7ff7324e122a]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 77, in schedule_run
+  File "news\News.py", line 65, in get_news_content
+  File "news\News.py", line 30, in load_page
+  File "selenium\webdriver\remote\webdriver.py", line 363, in get
+  File "selenium\webdriver\remote\webdriver.py", line 354, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff73245d0bf]
+	(No symbol) [0x0x7ff73244dae9]
+	(No symbol) [0x0x7ff73244f94e]
+	(No symbol) [0x0x7ff73244e0d2]
+	(No symbol) [0x0x7ff73244d859]
+	(No symbol) [0x0x7ff73244d51d]
+	(No symbol) [0x0x7ff73244b08c]
+	(No symbol) [0x0x7ff73244b91c]
+	(No symbol) [0x0x7ff7324646da]
+	(No symbol) [0x0x7ff73250a47e]
+	(No symbol) [0x0x7ff7324e122a]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+
+2025-11-03 22:07:54,862 - getRealtimeNews - ERROR - Error in news task: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff73245d0bf]
+	(No symbol) [0x0x7ff73244dae9]
+	(No symbol) [0x0x7ff73244f94e]
+	(No symbol) [0x0x7ff73244e0d2]
+	(No symbol) [0x0x7ff73244d859]
+	(No symbol) [0x0x7ff73244d51d]
+	(No symbol) [0x0x7ff73244b08c]
+	(No symbol) [0x0x7ff73244b91c]
+	(No symbol) [0x0x7ff7324646da]
+	(No symbol) [0x0x7ff73250a47e]
+	(No symbol) [0x0x7ff7324e122a]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 77, in schedule_run
+  File "news\News.py", line 65, in get_news_content
+  File "news\News.py", line 30, in load_page
+  File "selenium\webdriver\remote\webdriver.py", line 363, in get
+  File "selenium\webdriver\remote\webdriver.py", line 354, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff73245d0bf]
+	(No symbol) [0x0x7ff73244dae9]
+	(No symbol) [0x0x7ff73244f94e]
+	(No symbol) [0x0x7ff73244e0d2]
+	(No symbol) [0x0x7ff73244d859]
+	(No symbol) [0x0x7ff73244d51d]
+	(No symbol) [0x0x7ff73244b08c]
+	(No symbol) [0x0x7ff73244b91c]
+	(No symbol) [0x0x7ff7324646da]
+	(No symbol) [0x0x7ff73250a47e]
+	(No symbol) [0x0x7ff7324e122a]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+
+2025-11-03 22:07:56,961 - getRealtimeNews - ERROR - Error in news task: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff73245d0bf]
+	(No symbol) [0x0x7ff73244dae9]
+	(No symbol) [0x0x7ff73244f94e]
+	(No symbol) [0x0x7ff73244e0d2]
+	(No symbol) [0x0x7ff73244d859]
+	(No symbol) [0x0x7ff73244d51d]
+	(No symbol) [0x0x7ff73244b08c]
+	(No symbol) [0x0x7ff73244b91c]
+	(No symbol) [0x0x7ff7324646da]
+	(No symbol) [0x0x7ff73250a47e]
+	(No symbol) [0x0x7ff7324e122a]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 77, in schedule_run
+  File "news\News.py", line 65, in get_news_content
+  File "news\News.py", line 30, in load_page
+  File "selenium\webdriver\remote\webdriver.py", line 363, in get
+  File "selenium\webdriver\remote\webdriver.py", line 354, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff73245d0bf]
+	(No symbol) [0x0x7ff73244dae9]
+	(No symbol) [0x0x7ff73244f94e]
+	(No symbol) [0x0x7ff73244e0d2]
+	(No symbol) [0x0x7ff73244d859]
+	(No symbol) [0x0x7ff73244d51d]
+	(No symbol) [0x0x7ff73244b08c]
+	(No symbol) [0x0x7ff73244b91c]
+	(No symbol) [0x0x7ff7324646da]
+	(No symbol) [0x0x7ff73250a47e]
+	(No symbol) [0x0x7ff7324e122a]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+
+2025-11-03 22:07:59,030 - getRealtimeNews - ERROR - Error in news task: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff73245d0bf]
+	(No symbol) [0x0x7ff73244dae9]
+	(No symbol) [0x0x7ff73244f94e]
+	(No symbol) [0x0x7ff73244e0d2]
+	(No symbol) [0x0x7ff73244d859]
+	(No symbol) [0x0x7ff73244d51d]
+	(No symbol) [0x0x7ff73244b08c]
+	(No symbol) [0x0x7ff73244b91c]
+	(No symbol) [0x0x7ff7324646da]
+	(No symbol) [0x0x7ff73250a47e]
+	(No symbol) [0x0x7ff7324e122a]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 77, in schedule_run
+  File "news\News.py", line 65, in get_news_content
+  File "news\News.py", line 30, in load_page
+  File "selenium\webdriver\remote\webdriver.py", line 363, in get
+  File "selenium\webdriver\remote\webdriver.py", line 354, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff73245d0bf]
+	(No symbol) [0x0x7ff73244dae9]
+	(No symbol) [0x0x7ff73244f94e]
+	(No symbol) [0x0x7ff73244e0d2]
+	(No symbol) [0x0x7ff73244d859]
+	(No symbol) [0x0x7ff73244d51d]
+	(No symbol) [0x0x7ff73244b08c]
+	(No symbol) [0x0x7ff73244b91c]
+	(No symbol) [0x0x7ff7324646da]
+	(No symbol) [0x0x7ff73250a47e]
+	(No symbol) [0x0x7ff7324e122a]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+
+2025-11-03 22:08:43,844 - getRealtimeNews - ERROR - Error in news task: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#area_szyw"}
+  (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff7324b8854]
+	(No symbol) [0x0x7ff7324b8b1c]
+	(No symbol) [0x0x7ff73250c927]
+	(No symbol) [0x0x7ff7324e126f]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 77, in schedule_run
+  File "news\News.py", line 66, in get_news_content
+  File "news\Mwr.py", line 10, in parse_content
+  File "news\News.py", line 131, in parse_block
+  File "news\News.py", line 49, in find_element_by_css
+  File "selenium\webdriver\remote\webdriver.py", line 748, in find_element
+  File "selenium\webdriver\remote\webdriver.py", line 354, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#area_szyw"}
+  (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7326de955+80021]
+	GetHandleVerifier [0x0x7ff7326de9b0+80112]
+	(No symbol) [0x0x7ff73246060f]
+	(No symbol) [0x0x7ff7324b8854]
+	(No symbol) [0x0x7ff7324b8b1c]
+	(No symbol) [0x0x7ff73250c927]
+	(No symbol) [0x0x7ff7324e126f]
+	(No symbol) [0x0x7ff73250968a]
+	(No symbol) [0x0x7ff7324e1003]
+	(No symbol) [0x0x7ff7324a95d1]
+	(No symbol) [0x0x7ff7324aa3f3]
+	GetHandleVerifier [0x0x7ff73299dd0d+2960461]
+	GetHandleVerifier [0x0x7ff732997fca+2936586]
+	GetHandleVerifier [0x0x7ff7329b8a07+3070279]
+	GetHandleVerifier [0x0x7ff7326f843e+185214]
+	GetHandleVerifier [0x0x7ff7326ffe8f+216527]
+	GetHandleVerifier [0x0x7ff7326e7b94+117460]
+	GetHandleVerifier [0x0x7ff7326e7d4f+117903]
+	GetHandleVerifier [0x0x7ff7326cdc28+11112]
+	BaseThreadInitThunk [0x0x7ffb3162259d+29]
+	RtlUserThreadStart [0x0x7ffb3294af78+40]
+
