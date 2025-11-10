@@ -1,0 +1,416 @@
+2025-11-06 12:38:22,108 - getRealtimeNews - ERROR - Error in news task: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#area_szyw"}
+  (Session info: chrome=141.0.7390.125); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a0eae955+80021]
+	GetHandleVerifier [0x0x7ff6a0eae9b0+80112]
+	(No symbol) [0x0x7ff6a0c3060f]
+	(No symbol) [0x0x7ff6a0c88854]
+	(No symbol) [0x0x7ff6a0c88b1c]
+	(No symbol) [0x0x7ff6a0cdc927]
+	(No symbol) [0x0x7ff6a0cb126f]
+	(No symbol) [0x0x7ff6a0cd968a]
+	(No symbol) [0x0x7ff6a0cb1003]
+	(No symbol) [0x0x7ff6a0c795d1]
+	(No symbol) [0x0x7ff6a0c7a3f3]
+	GetHandleVerifier [0x0x7ff6a116dd0d+2960461]
+	GetHandleVerifier [0x0x7ff6a1167fca+2936586]
+	GetHandleVerifier [0x0x7ff6a1188a07+3070279]
+	GetHandleVerifier [0x0x7ff6a0ec843e+185214]
+	GetHandleVerifier [0x0x7ff6a0ecfe8f+216527]
+	GetHandleVerifier [0x0x7ff6a0eb7b94+117460]
+	GetHandleVerifier [0x0x7ff6a0eb7d4f+117903]
+	GetHandleVerifier [0x0x7ff6a0e9dc28+11112]
+	BaseThreadInitThunk [0x0x7ffbf48fe8d7+23]
+	RtlUserThreadStart [0x0x7ffbf686c53c+44]
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 77, in schedule_run
+  File "news\News.py", line 66, in get_news_content
+  File "news\Mwr.py", line 10, in parse_content
+  File "news\News.py", line 131, in parse_block
+  File "news\News.py", line 49, in find_element_by_css
+  File "selenium\webdriver\remote\webdriver.py", line 748, in find_element
+  File "selenium\webdriver\remote\webdriver.py", line 354, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#area_szyw"}
+  (Session info: chrome=141.0.7390.125); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a0eae955+80021]
+	GetHandleVerifier [0x0x7ff6a0eae9b0+80112]
+	(No symbol) [0x0x7ff6a0c3060f]
+	(No symbol) [0x0x7ff6a0c88854]
+	(No symbol) [0x0x7ff6a0c88b1c]
+	(No symbol) [0x0x7ff6a0cdc927]
+	(No symbol) [0x0x7ff6a0cb126f]
+	(No symbol) [0x0x7ff6a0cd968a]
+	(No symbol) [0x0x7ff6a0cb1003]
+	(No symbol) [0x0x7ff6a0c795d1]
+	(No symbol) [0x0x7ff6a0c7a3f3]
+	GetHandleVerifier [0x0x7ff6a116dd0d+2960461]
+	GetHandleVerifier [0x0x7ff6a1167fca+2936586]
+	GetHandleVerifier [0x0x7ff6a1188a07+3070279]
+	GetHandleVerifier [0x0x7ff6a0ec843e+185214]
+	GetHandleVerifier [0x0x7ff6a0ecfe8f+216527]
+	GetHandleVerifier [0x0x7ff6a0eb7b94+117460]
+	GetHandleVerifier [0x0x7ff6a0eb7d4f+117903]
+	GetHandleVerifier [0x0x7ff6a0e9dc28+11112]
+	BaseThreadInitThunk [0x0x7ffbf48fe8d7+23]
+	RtlUserThreadStart [0x0x7ffbf686c53c+44]
+
+2025-11-06 12:48:31,840 - getRealtimeNews - ERROR - Error in news task: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 77, in schedule_run
+  File "news\News.py", line 66, in get_news_content
+  File "news\NewsDB.py", line 18, in parse_content
+TypeError: string indices must be integers, not 'str'
+2025-11-06 13:05:39,521 - getRealtimeNews - ERROR - Error in news task: Message: no such element: Unable to locate element: {"method":"css selector","selector":".article-list"}
+  (Session info: chrome=141.0.7390.125); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a0eae955+80021]
+	GetHandleVerifier [0x0x7ff6a0eae9b0+80112]
+	(No symbol) [0x0x7ff6a0c3060f]
+	(No symbol) [0x0x7ff6a0c88854]
+	(No symbol) [0x0x7ff6a0c88b1c]
+	(No symbol) [0x0x7ff6a0cdc927]
+	(No symbol) [0x0x7ff6a0cb126f]
+	(No symbol) [0x0x7ff6a0cd968a]
+	(No symbol) [0x0x7ff6a0cb1003]
+	(No symbol) [0x0x7ff6a0c795d1]
+	(No symbol) [0x0x7ff6a0c7a3f3]
+	GetHandleVerifier [0x0x7ff6a116dd0d+2960461]
+	GetHandleVerifier [0x0x7ff6a1167fca+2936586]
+	GetHandleVerifier [0x0x7ff6a1188a07+3070279]
+	GetHandleVerifier [0x0x7ff6a0ec843e+185214]
+	GetHandleVerifier [0x0x7ff6a0ecfe8f+216527]
+	GetHandleVerifier [0x0x7ff6a0eb7b94+117460]
+	GetHandleVerifier [0x0x7ff6a0eb7d4f+117903]
+	GetHandleVerifier [0x0x7ff6a0e9dc28+11112]
+	BaseThreadInitThunk [0x0x7ffbf48fe8d7+23]
+	RtlUserThreadStart [0x0x7ffbf686c53c+44]
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 77, in schedule_run
+  File "news\News.py", line 66, in get_news_content
+  File "news\Geekpark.py", line 10, in parse_content
+  File "news\News.py", line 131, in parse_block
+  File "news\News.py", line 49, in find_element_by_css
+  File "selenium\webdriver\remote\webdriver.py", line 748, in find_element
+  File "selenium\webdriver\remote\webdriver.py", line 354, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".article-list"}
+  (Session info: chrome=141.0.7390.125); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a0eae955+80021]
+	GetHandleVerifier [0x0x7ff6a0eae9b0+80112]
+	(No symbol) [0x0x7ff6a0c3060f]
+	(No symbol) [0x0x7ff6a0c88854]
+	(No symbol) [0x0x7ff6a0c88b1c]
+	(No symbol) [0x0x7ff6a0cdc927]
+	(No symbol) [0x0x7ff6a0cb126f]
+	(No symbol) [0x0x7ff6a0cd968a]
+	(No symbol) [0x0x7ff6a0cb1003]
+	(No symbol) [0x0x7ff6a0c795d1]
+	(No symbol) [0x0x7ff6a0c7a3f3]
+	GetHandleVerifier [0x0x7ff6a116dd0d+2960461]
+	GetHandleVerifier [0x0x7ff6a1167fca+2936586]
+	GetHandleVerifier [0x0x7ff6a1188a07+3070279]
+	GetHandleVerifier [0x0x7ff6a0ec843e+185214]
+	GetHandleVerifier [0x0x7ff6a0ecfe8f+216527]
+	GetHandleVerifier [0x0x7ff6a0eb7b94+117460]
+	GetHandleVerifier [0x0x7ff6a0eb7d4f+117903]
+	GetHandleVerifier [0x0x7ff6a0e9dc28+11112]
+	BaseThreadInitThunk [0x0x7ffbf48fe8d7+23]
+	RtlUserThreadStart [0x0x7ffbf686c53c+44]
+
+2025-11-06 13:06:11,341 - getRealtimeNews - ERROR - Error in news task: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test-id="cards-body"] > div"}
+  (Session info: chrome=141.0.7390.125); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a0eae955+80021]
+	GetHandleVerifier [0x0x7ff6a0eae9b0+80112]
+	(No symbol) [0x0x7ff6a0c3060f]
+	(No symbol) [0x0x7ff6a0c88854]
+	(No symbol) [0x0x7ff6a0c88b1c]
+	(No symbol) [0x0x7ff6a0cdc927]
+	(No symbol) [0x0x7ff6a0cb126f]
+	(No symbol) [0x0x7ff6a0cd968a]
+	(No symbol) [0x0x7ff6a0cb1003]
+	(No symbol) [0x0x7ff6a0c795d1]
+	(No symbol) [0x0x7ff6a0c7a3f3]
+	GetHandleVerifier [0x0x7ff6a116dd0d+2960461]
+	GetHandleVerifier [0x0x7ff6a1167fca+2936586]
+	GetHandleVerifier [0x0x7ff6a1188a07+3070279]
+	GetHandleVerifier [0x0x7ff6a0ec843e+185214]
+	GetHandleVerifier [0x0x7ff6a0ecfe8f+216527]
+	GetHandleVerifier [0x0x7ff6a0eb7b94+117460]
+	GetHandleVerifier [0x0x7ff6a0eb7d4f+117903]
+	GetHandleVerifier [0x0x7ff6a0e9dc28+11112]
+	BaseThreadInitThunk [0x0x7ffbf48fe8d7+23]
+	RtlUserThreadStart [0x0x7ffbf686c53c+44]
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 77, in schedule_run
+  File "news\News.py", line 66, in get_news_content
+  File "news\Seekingalpha.py", line 10, in parse_content
+  File "news\News.py", line 49, in find_element_by_css
+  File "selenium\webdriver\remote\webdriver.py", line 748, in find_element
+  File "selenium\webdriver\remote\webdriver.py", line 354, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test-id="cards-body"] > div"}
+  (Session info: chrome=141.0.7390.125); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a0eae955+80021]
+	GetHandleVerifier [0x0x7ff6a0eae9b0+80112]
+	(No symbol) [0x0x7ff6a0c3060f]
+	(No symbol) [0x0x7ff6a0c88854]
+	(No symbol) [0x0x7ff6a0c88b1c]
+	(No symbol) [0x0x7ff6a0cdc927]
+	(No symbol) [0x0x7ff6a0cb126f]
+	(No symbol) [0x0x7ff6a0cd968a]
+	(No symbol) [0x0x7ff6a0cb1003]
+	(No symbol) [0x0x7ff6a0c795d1]
+	(No symbol) [0x0x7ff6a0c7a3f3]
+	GetHandleVerifier [0x0x7ff6a116dd0d+2960461]
+	GetHandleVerifier [0x0x7ff6a1167fca+2936586]
+	GetHandleVerifier [0x0x7ff6a1188a07+3070279]
+	GetHandleVerifier [0x0x7ff6a0ec843e+185214]
+	GetHandleVerifier [0x0x7ff6a0ecfe8f+216527]
+	GetHandleVerifier [0x0x7ff6a0eb7b94+117460]
+	GetHandleVerifier [0x0x7ff6a0eb7d4f+117903]
+	GetHandleVerifier [0x0x7ff6a0e9dc28+11112]
+	BaseThreadInitThunk [0x0x7ffbf48fe8d7+23]
+	RtlUserThreadStart [0x0x7ffbf686c53c+44]
+
+2025-11-06 13:07:30,245 - getRealtimeNews - ERROR - Error in news task: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#area_szyw"}
+  (Session info: chrome=141.0.7390.125); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a0eae955+80021]
+	GetHandleVerifier [0x0x7ff6a0eae9b0+80112]
+	(No symbol) [0x0x7ff6a0c3060f]
+	(No symbol) [0x0x7ff6a0c88854]
+	(No symbol) [0x0x7ff6a0c88b1c]
+	(No symbol) [0x0x7ff6a0cdc927]
+	(No symbol) [0x0x7ff6a0cb126f]
+	(No symbol) [0x0x7ff6a0cd968a]
+	(No symbol) [0x0x7ff6a0cb1003]
+	(No symbol) [0x0x7ff6a0c795d1]
+	(No symbol) [0x0x7ff6a0c7a3f3]
+	GetHandleVerifier [0x0x7ff6a116dd0d+2960461]
+	GetHandleVerifier [0x0x7ff6a1167fca+2936586]
+	GetHandleVerifier [0x0x7ff6a1188a07+3070279]
+	GetHandleVerifier [0x0x7ff6a0ec843e+185214]
+	GetHandleVerifier [0x0x7ff6a0ecfe8f+216527]
+	GetHandleVerifier [0x0x7ff6a0eb7b94+117460]
+	GetHandleVerifier [0x0x7ff6a0eb7d4f+117903]
+	GetHandleVerifier [0x0x7ff6a0e9dc28+11112]
+	BaseThreadInitThunk [0x0x7ffbf48fe8d7+23]
+	RtlUserThreadStart [0x0x7ffbf686c53c+44]
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 77, in schedule_run
+  File "news\News.py", line 66, in get_news_content
+  File "news\Mwr.py", line 10, in parse_content
+  File "news\News.py", line 131, in parse_block
+  File "news\News.py", line 49, in find_element_by_css
+  File "selenium\webdriver\remote\webdriver.py", line 748, in find_element
+  File "selenium\webdriver\remote\webdriver.py", line 354, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#area_szyw"}
+  (Session info: chrome=141.0.7390.125); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a0eae955+80021]
+	GetHandleVerifier [0x0x7ff6a0eae9b0+80112]
+	(No symbol) [0x0x7ff6a0c3060f]
+	(No symbol) [0x0x7ff6a0c88854]
+	(No symbol) [0x0x7ff6a0c88b1c]
+	(No symbol) [0x0x7ff6a0cdc927]
+	(No symbol) [0x0x7ff6a0cb126f]
+	(No symbol) [0x0x7ff6a0cd968a]
+	(No symbol) [0x0x7ff6a0cb1003]
+	(No symbol) [0x0x7ff6a0c795d1]
+	(No symbol) [0x0x7ff6a0c7a3f3]
+	GetHandleVerifier [0x0x7ff6a116dd0d+2960461]
+	GetHandleVerifier [0x0x7ff6a1167fca+2936586]
+	GetHandleVerifier [0x0x7ff6a1188a07+3070279]
+	GetHandleVerifier [0x0x7ff6a0ec843e+185214]
+	GetHandleVerifier [0x0x7ff6a0ecfe8f+216527]
+	GetHandleVerifier [0x0x7ff6a0eb7b94+117460]
+	GetHandleVerifier [0x0x7ff6a0eb7d4f+117903]
+	GetHandleVerifier [0x0x7ff6a0e9dc28+11112]
+	BaseThreadInitThunk [0x0x7ffbf48fe8d7+23]
+	RtlUserThreadStart [0x0x7ffbf686c53c+44]
+
+2025-11-06 13:20:45,967 - getRealtimeNews - ERROR - Error in news task: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 77, in schedule_run
+  File "news\News.py", line 66, in get_news_content
+  File "news\NewsDB.py", line 18, in parse_content
+TypeError: string indices must be integers, not 'str'
+2025-11-06 13:34:46,035 - getRealtimeNews - ERROR - Error in news task: Message: no such element: Unable to locate element: {"method":"css selector","selector":".article-list"}
+  (Session info: chrome=141.0.7390.125); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a0eae955+80021]
+	GetHandleVerifier [0x0x7ff6a0eae9b0+80112]
+	(No symbol) [0x0x7ff6a0c3060f]
+	(No symbol) [0x0x7ff6a0c88854]
+	(No symbol) [0x0x7ff6a0c88b1c]
+	(No symbol) [0x0x7ff6a0cdc927]
+	(No symbol) [0x0x7ff6a0cb126f]
+	(No symbol) [0x0x7ff6a0cd968a]
+	(No symbol) [0x0x7ff6a0cb1003]
+	(No symbol) [0x0x7ff6a0c795d1]
+	(No symbol) [0x0x7ff6a0c7a3f3]
+	GetHandleVerifier [0x0x7ff6a116dd0d+2960461]
+	GetHandleVerifier [0x0x7ff6a1167fca+2936586]
+	GetHandleVerifier [0x0x7ff6a1188a07+3070279]
+	GetHandleVerifier [0x0x7ff6a0ec843e+185214]
+	GetHandleVerifier [0x0x7ff6a0ecfe8f+216527]
+	GetHandleVerifier [0x0x7ff6a0eb7b94+117460]
+	GetHandleVerifier [0x0x7ff6a0eb7d4f+117903]
+	GetHandleVerifier [0x0x7ff6a0e9dc28+11112]
+	BaseThreadInitThunk [0x0x7ffbf48fe8d7+23]
+	RtlUserThreadStart [0x0x7ffbf686c53c+44]
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 77, in schedule_run
+  File "news\News.py", line 66, in get_news_content
+  File "news\Geekpark.py", line 10, in parse_content
+  File "news\News.py", line 131, in parse_block
+  File "news\News.py", line 49, in find_element_by_css
+  File "selenium\webdriver\remote\webdriver.py", line 748, in find_element
+  File "selenium\webdriver\remote\webdriver.py", line 354, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".article-list"}
+  (Session info: chrome=141.0.7390.125); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a0eae955+80021]
+	GetHandleVerifier [0x0x7ff6a0eae9b0+80112]
+	(No symbol) [0x0x7ff6a0c3060f]
+	(No symbol) [0x0x7ff6a0c88854]
+	(No symbol) [0x0x7ff6a0c88b1c]
+	(No symbol) [0x0x7ff6a0cdc927]
+	(No symbol) [0x0x7ff6a0cb126f]
+	(No symbol) [0x0x7ff6a0cd968a]
+	(No symbol) [0x0x7ff6a0cb1003]
+	(No symbol) [0x0x7ff6a0c795d1]
+	(No symbol) [0x0x7ff6a0c7a3f3]
+	GetHandleVerifier [0x0x7ff6a116dd0d+2960461]
+	GetHandleVerifier [0x0x7ff6a1167fca+2936586]
+	GetHandleVerifier [0x0x7ff6a1188a07+3070279]
+	GetHandleVerifier [0x0x7ff6a0ec843e+185214]
+	GetHandleVerifier [0x0x7ff6a0ecfe8f+216527]
+	GetHandleVerifier [0x0x7ff6a0eb7b94+117460]
+	GetHandleVerifier [0x0x7ff6a0eb7d4f+117903]
+	GetHandleVerifier [0x0x7ff6a0e9dc28+11112]
+	BaseThreadInitThunk [0x0x7ffbf48fe8d7+23]
+	RtlUserThreadStart [0x0x7ffbf686c53c+44]
+
+2025-11-06 13:35:14,534 - getRealtimeNews - ERROR - Error in news task: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test-id="cards-body"] > div"}
+  (Session info: chrome=141.0.7390.125); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a0eae955+80021]
+	GetHandleVerifier [0x0x7ff6a0eae9b0+80112]
+	(No symbol) [0x0x7ff6a0c3060f]
+	(No symbol) [0x0x7ff6a0c88854]
+	(No symbol) [0x0x7ff6a0c88b1c]
+	(No symbol) [0x0x7ff6a0cdc927]
+	(No symbol) [0x0x7ff6a0cb126f]
+	(No symbol) [0x0x7ff6a0cd968a]
+	(No symbol) [0x0x7ff6a0cb1003]
+	(No symbol) [0x0x7ff6a0c795d1]
+	(No symbol) [0x0x7ff6a0c7a3f3]
+	GetHandleVerifier [0x0x7ff6a116dd0d+2960461]
+	GetHandleVerifier [0x0x7ff6a1167fca+2936586]
+	GetHandleVerifier [0x0x7ff6a1188a07+3070279]
+	GetHandleVerifier [0x0x7ff6a0ec843e+185214]
+	GetHandleVerifier [0x0x7ff6a0ecfe8f+216527]
+	GetHandleVerifier [0x0x7ff6a0eb7b94+117460]
+	GetHandleVerifier [0x0x7ff6a0eb7d4f+117903]
+	GetHandleVerifier [0x0x7ff6a0e9dc28+11112]
+	BaseThreadInitThunk [0x0x7ffbf48fe8d7+23]
+	RtlUserThreadStart [0x0x7ffbf686c53c+44]
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 77, in schedule_run
+  File "news\News.py", line 66, in get_news_content
+  File "news\Seekingalpha.py", line 10, in parse_content
+  File "news\News.py", line 49, in find_element_by_css
+  File "selenium\webdriver\remote\webdriver.py", line 748, in find_element
+  File "selenium\webdriver\remote\webdriver.py", line 354, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test-id="cards-body"] > div"}
+  (Session info: chrome=141.0.7390.125); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a0eae955+80021]
+	GetHandleVerifier [0x0x7ff6a0eae9b0+80112]
+	(No symbol) [0x0x7ff6a0c3060f]
+	(No symbol) [0x0x7ff6a0c88854]
+	(No symbol) [0x0x7ff6a0c88b1c]
+	(No symbol) [0x0x7ff6a0cdc927]
+	(No symbol) [0x0x7ff6a0cb126f]
+	(No symbol) [0x0x7ff6a0cd968a]
+	(No symbol) [0x0x7ff6a0cb1003]
+	(No symbol) [0x0x7ff6a0c795d1]
+	(No symbol) [0x0x7ff6a0c7a3f3]
+	GetHandleVerifier [0x0x7ff6a116dd0d+2960461]
+	GetHandleVerifier [0x0x7ff6a1167fca+2936586]
+	GetHandleVerifier [0x0x7ff6a1188a07+3070279]
+	GetHandleVerifier [0x0x7ff6a0ec843e+185214]
+	GetHandleVerifier [0x0x7ff6a0ecfe8f+216527]
+	GetHandleVerifier [0x0x7ff6a0eb7b94+117460]
+	GetHandleVerifier [0x0x7ff6a0eb7d4f+117903]
+	GetHandleVerifier [0x0x7ff6a0e9dc28+11112]
+	BaseThreadInitThunk [0x0x7ffbf48fe8d7+23]
+	RtlUserThreadStart [0x0x7ffbf686c53c+44]
+
+2025-11-06 13:36:31,499 - getRealtimeNews - ERROR - Error in news task: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#area_szyw"}
+  (Session info: chrome=141.0.7390.125); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a0eae955+80021]
+	GetHandleVerifier [0x0x7ff6a0eae9b0+80112]
+	(No symbol) [0x0x7ff6a0c3060f]
+	(No symbol) [0x0x7ff6a0c88854]
+	(No symbol) [0x0x7ff6a0c88b1c]
+	(No symbol) [0x0x7ff6a0cdc927]
+	(No symbol) [0x0x7ff6a0cb126f]
+	(No symbol) [0x0x7ff6a0cd968a]
+	(No symbol) [0x0x7ff6a0cb1003]
+	(No symbol) [0x0x7ff6a0c795d1]
+	(No symbol) [0x0x7ff6a0c7a3f3]
+	GetHandleVerifier [0x0x7ff6a116dd0d+2960461]
+	GetHandleVerifier [0x0x7ff6a1167fca+2936586]
+	GetHandleVerifier [0x0x7ff6a1188a07+3070279]
+	GetHandleVerifier [0x0x7ff6a0ec843e+185214]
+	GetHandleVerifier [0x0x7ff6a0ecfe8f+216527]
+	GetHandleVerifier [0x0x7ff6a0eb7b94+117460]
+	GetHandleVerifier [0x0x7ff6a0eb7d4f+117903]
+	GetHandleVerifier [0x0x7ff6a0e9dc28+11112]
+	BaseThreadInitThunk [0x0x7ffbf48fe8d7+23]
+	RtlUserThreadStart [0x0x7ffbf686c53c+44]
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 77, in schedule_run
+  File "news\News.py", line 66, in get_news_content
+  File "news\Mwr.py", line 10, in parse_content
+  File "news\News.py", line 131, in parse_block
+  File "news\News.py", line 49, in find_element_by_css
+  File "selenium\webdriver\remote\webdriver.py", line 748, in find_element
+  File "selenium\webdriver\remote\webdriver.py", line 354, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#area_szyw"}
+  (Session info: chrome=141.0.7390.125); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a0eae955+80021]
+	GetHandleVerifier [0x0x7ff6a0eae9b0+80112]
+	(No symbol) [0x0x7ff6a0c3060f]
+	(No symbol) [0x0x7ff6a0c88854]
+	(No symbol) [0x0x7ff6a0c88b1c]
+	(No symbol) [0x0x7ff6a0cdc927]
+	(No symbol) [0x0x7ff6a0cb126f]
+	(No symbol) [0x0x7ff6a0cd968a]
+	(No symbol) [0x0x7ff6a0cb1003]
+	(No symbol) [0x0x7ff6a0c795d1]
+	(No symbol) [0x0x7ff6a0c7a3f3]
+	GetHandleVerifier [0x0x7ff6a116dd0d+2960461]
+	GetHandleVerifier [0x0x7ff6a1167fca+2936586]
+	GetHandleVerifier [0x0x7ff6a1188a07+3070279]
+	GetHandleVerifier [0x0x7ff6a0ec843e+185214]
+	GetHandleVerifier [0x0x7ff6a0ecfe8f+216527]
+	GetHandleVerifier [0x0x7ff6a0eb7b94+117460]
+	GetHandleVerifier [0x0x7ff6a0eb7d4f+117903]
+	GetHandleVerifier [0x0x7ff6a0e9dc28+11112]
+	BaseThreadInitThunk [0x0x7ffbf48fe8d7+23]
+	RtlUserThreadStart [0x0x7ffbf686c53c+44]
+
