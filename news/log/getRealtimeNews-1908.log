@@ -1,0 +1,155 @@
+2026-06-13 17:27:07,344 - getRealtimeNews - INFO - Strategy Cnbc start
+2026-06-13 17:27:07,358 - getRealtimeNews - INFO - Strategy Cnbc1 start
+2026-06-13 17:27:07,367 - getRealtimeNews - INFO - Strategy Wallstreetcn start
+2026-06-13 17:27:07,381 - getRealtimeNews - INFO - Strategy Wallstreetcn1 start
+2026-06-13 17:27:07,393 - getRealtimeNews - INFO - Strategy Jqka start
+2026-06-13 17:27:07,405 - getRealtimeNews - INFO - Strategy Techweb start
+2026-06-13 17:27:07,420 - getRealtimeNews - INFO - Strategy Geekpark start
+2026-06-13 17:27:07,440 - getRealtimeNews - INFO - Strategy Zaobao start
+2026-06-13 17:27:07,494 - getRealtimeNews - INFO - Strategy Zaobao1 start
+2026-06-13 17:27:07,502 - getRealtimeNews - INFO - Strategy Zhengce start
+2026-06-13 17:27:07,520 - getRealtimeNews - INFO - Strategy Mod start
+2026-06-13 17:27:07,531 - getRealtimeNews - INFO - Strategy Ndrc start
+2026-06-13 17:27:07,547 - getRealtimeNews - INFO - Strategy Miit start
+2026-06-13 17:27:07,555 - getRealtimeNews - INFO - Strategy Mof start
+2026-06-13 17:27:07,564 - getRealtimeNews - INFO - Strategy Mohurd start
+2026-06-13 17:27:07,600 - getRealtimeNews - INFO - Strategy Mot start
+2026-06-13 17:27:07,611 - getRealtimeNews - INFO - Strategy Moa start
+2026-06-13 17:27:07,621 - getRealtimeNews - INFO - Strategy Mofcom start
+2026-06-13 17:27:07,649 - getRealtimeNews - INFO - Strategy Mofcom1 start
+2026-06-13 17:27:07,655 - getRealtimeNews - INFO - Strategy Mct start
+2026-06-13 17:27:07,667 - getRealtimeNews - INFO - Strategy Pbc start
+2026-06-13 17:27:07,675 - getRealtimeNews - INFO - Strategy Fmprc start
+2026-06-13 17:27:07,690 - getRealtimeNews - INFO - Strategy Ppxw start
+2026-06-13 17:27:07,700 - getRealtimeNews - INFO - Strategy Ygw start
+2026-06-13 17:27:07,709 - getRealtimeNews - INFO - Strategy Xhw start
+2026-06-13 17:27:07,718 - getRealtimeNews - INFO - Strategy Zgrbw start
+2026-06-13 17:27:07,728 - getRealtimeNews - INFO - Strategy Rmw start
+2026-06-13 17:27:07,738 - getRealtimeNews - INFO - Strategy Biztoc start
+2026-06-13 17:27:07,754 - getRealtimeNews - INFO - Strategy Finviz start
+2026-06-13 17:27:07,821 - getRealtimeNews - INFO - Strategy Ft start
+2026-06-13 17:27:07,837 - getRealtimeNews - INFO - Strategy Ppxw2 start
+2026-06-13 17:27:07,852 - getRealtimeNews - INFO - Strategy Ftchina start
+2026-06-13 17:27:07,863 - getRealtimeNews - INFO - Strategy Kcbrb start
+2026-06-13 17:27:07,871 - getRealtimeNews - INFO - Strategy Zzw start
+2026-06-13 17:27:07,889 - getRealtimeNews - INFO - Strategy Dfcf start
+2026-06-13 17:27:07,945 - getRealtimeNews - INFO - Strategy 36kr start
+2026-06-13 17:27:07,959 - getRealtimeNews - INFO - Strategy Cls start
+2026-06-13 17:27:07,970 - getRealtimeNews - INFO - Strategy Jin10 start
+2026-06-13 17:27:08,039 - getRealtimeNews - INFO - Strategy Guancha start
+2026-06-13 17:27:08,365 - getRealtimeNews - INFO - Strategy Zhitongcaijing start
+2026-06-13 17:27:08,436 - getRealtimeNews - INFO - Strategy Omdia start
+2026-06-13 17:27:08,453 - getRealtimeNews - INFO - Strategy Trendforce start
+2026-06-13 17:27:08,468 - getRealtimeNews - INFO - Strategy Jygs start
+2026-06-13 17:27:08,487 - getRealtimeNews - INFO - Strategy Smm start
+2026-06-13 17:27:08,522 - getRealtimeNews - INFO - Strategy Qhrb start
+2026-06-13 17:27:08,553 - getRealtimeNews - INFO - Strategy Yahoo start
+2026-06-13 17:27:08,569 - getRealtimeNews - INFO - Strategy Seekingalpha start
+2026-06-13 17:27:46,466 - getRealtimeNews - ERROR - Error in news task [Wallstreetcn] url=https://wallstreetcn.com/live/global: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#importance"}
+  (Session info: chrome=149.0.7827.115); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff753d7fd95+15395]
+	chromedriver!GetHandleVerifier [0x7ff753d7fdf0+153f0]
+	chromedriver!(No symbol) [0x7ff7538b78fd]
+	chromedriver!(No symbol) [0x7ff753911479]
+	chromedriver!(No symbol) [0x7ff75391177c]
+	chromedriver!(No symbol) [0x7ff753961ef7]
+	chromedriver!(No symbol) [0x7ff75395eaeb]
+	chromedriver!(No symbol) [0x7ff753903a58]
+	chromedriver!(No symbol) [0x7ff753904953]
+	chromedriver!GetHandleVerifier [0x7ff754345511+5dab11]
+	chromedriver!GetHandleVerifier [0x7ff75433f8fb+5d4efb]
+	chromedriver!GetHandleVerifier [0x7ff754363205+5f8805]
+	chromedriver!GetHandleVerifier [0x7ff753d9cc6e+3226e]
+	chromedriver!GetHandleVerifier [0x7ff753da562c+3ac2c]
+	chromedriver!GetHandleVerifier [0x7ff753d89984+1ef84]
+	chromedriver!GetHandleVerifier [0x7ff753d89b14+1f114]
+	chromedriver!GetHandleVerifier [0x7ff753d6ca77+2077]
+	KERNEL32!BaseThreadInitThunk [0x7ffe1529259d+1d]
+	ntdll!RtlUserThreadStart [0x7ffe1566af78+28]
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 78, in schedule_run
+  File "news\News.py", line 66, in get_news_content
+  File "news\Wallstreetcn.py", line 14, in parse_content
+  File "news\News.py", line 86, in click_by_css
+  File "news\News.py", line 49, in find_element_by_css
+  File "selenium\webdriver\remote\webdriver.py", line 748, in find_element
+  File "selenium\webdriver\remote\webdriver.py", line 354, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#importance"}
+  (Session info: chrome=149.0.7827.115); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff753d7fd95+15395]
+	chromedriver!GetHandleVerifier [0x7ff753d7fdf0+153f0]
+	chromedriver!(No symbol) [0x7ff7538b78fd]
+	chromedriver!(No symbol) [0x7ff753911479]
+	chromedriver!(No symbol) [0x7ff75391177c]
+	chromedriver!(No symbol) [0x7ff753961ef7]
+	chromedriver!(No symbol) [0x7ff75395eaeb]
+	chromedriver!(No symbol) [0x7ff753903a58]
+	chromedriver!(No symbol) [0x7ff753904953]
+	chromedriver!GetHandleVerifier [0x7ff754345511+5dab11]
+	chromedriver!GetHandleVerifier [0x7ff75433f8fb+5d4efb]
+	chromedriver!GetHandleVerifier [0x7ff754363205+5f8805]
+	chromedriver!GetHandleVerifier [0x7ff753d9cc6e+3226e]
+	chromedriver!GetHandleVerifier [0x7ff753da562c+3ac2c]
+	chromedriver!GetHandleVerifier [0x7ff753d89984+1ef84]
+	chromedriver!GetHandleVerifier [0x7ff753d89b14+1f114]
+	chromedriver!GetHandleVerifier [0x7ff753d6ca77+2077]
+	KERNEL32!BaseThreadInitThunk [0x7ffe1529259d+1d]
+	ntdll!RtlUserThreadStart [0x7ffe1566af78+28]
+
+2026-06-13 17:33:47,524 - getRealtimeNews - ERROR - Error in news task [Biztoc] url=https://biztoc.com/: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#s_boston"}
+  (Session info: chrome=149.0.7827.115); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff753d7fd95+15395]
+	chromedriver!GetHandleVerifier [0x7ff753d7fdf0+153f0]
+	chromedriver!(No symbol) [0x7ff7538b78fd]
+	chromedriver!(No symbol) [0x7ff753911479]
+	chromedriver!(No symbol) [0x7ff75391177c]
+	chromedriver!(No symbol) [0x7ff753961ef7]
+	chromedriver!(No symbol) [0x7ff75395eaeb]
+	chromedriver!(No symbol) [0x7ff753903a58]
+	chromedriver!(No symbol) [0x7ff753904953]
+	chromedriver!GetHandleVerifier [0x7ff754345511+5dab11]
+	chromedriver!GetHandleVerifier [0x7ff75433f8fb+5d4efb]
+	chromedriver!GetHandleVerifier [0x7ff754363205+5f8805]
+	chromedriver!GetHandleVerifier [0x7ff753d9cc6e+3226e]
+	chromedriver!GetHandleVerifier [0x7ff753da562c+3ac2c]
+	chromedriver!GetHandleVerifier [0x7ff753d89984+1ef84]
+	chromedriver!GetHandleVerifier [0x7ff753d89b14+1f114]
+	chromedriver!GetHandleVerifier [0x7ff753d6ca77+2077]
+	KERNEL32!BaseThreadInitThunk [0x7ffe1529259d+1d]
+	ntdll!RtlUserThreadStart [0x7ffe1566af78+28]
+Traceback (most recent call last):
+  File "getRealtimeNews.py", line 78, in schedule_run
+  File "news\News.py", line 66, in get_news_content
+  File "news\Biztoc.py", line 43, in parse_content
+  File "news\News.py", line 131, in parse_block
+  File "news\News.py", line 49, in find_element_by_css
+  File "selenium\webdriver\remote\webdriver.py", line 748, in find_element
+  File "selenium\webdriver\remote\webdriver.py", line 354, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#s_boston"}
+  (Session info: chrome=149.0.7827.115); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff753d7fd95+15395]
+	chromedriver!GetHandleVerifier [0x7ff753d7fdf0+153f0]
+	chromedriver!(No symbol) [0x7ff7538b78fd]
+	chromedriver!(No symbol) [0x7ff753911479]
+	chromedriver!(No symbol) [0x7ff75391177c]
+	chromedriver!(No symbol) [0x7ff753961ef7]
+	chromedriver!(No symbol) [0x7ff75395eaeb]
+	chromedriver!(No symbol) [0x7ff753903a58]
+	chromedriver!(No symbol) [0x7ff753904953]
+	chromedriver!GetHandleVerifier [0x7ff754345511+5dab11]
+	chromedriver!GetHandleVerifier [0x7ff75433f8fb+5d4efb]
+	chromedriver!GetHandleVerifier [0x7ff754363205+5f8805]
+	chromedriver!GetHandleVerifier [0x7ff753d9cc6e+3226e]
+	chromedriver!GetHandleVerifier [0x7ff753da562c+3ac2c]
+	chromedriver!GetHandleVerifier [0x7ff753d89984+1ef84]
+	chromedriver!GetHandleVerifier [0x7ff753d89b14+1f114]
+	chromedriver!GetHandleVerifier [0x7ff753d6ca77+2077]
+	KERNEL32!BaseThreadInitThunk [0x7ffe1529259d+1d]
+	ntdll!RtlUserThreadStart [0x7ffe1566af78+28]
+
