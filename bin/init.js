@@ -163,7 +163,7 @@ db.strategies.insertMany([{
     strategyId: '5da19b7d181fc3600c5544c3',
     open_percent_low: '-2.0',
     open_percent_high: '3.5',
-    max_stock_percent: '3.0',
+    min_avg_stock_percent : "1.0",
     auto_cancel: '1',
     volume: '30000',
     delta : 0
@@ -181,7 +181,7 @@ db.strategies.insertMany([{
       start: '09:30',
       end: '15:00',
     },
-    auto: '1',
+    auto : '1',
     force_sell_time: '15:50:00',
     start_buy_line: '1',
     buy_on_low_limit: '1',
@@ -222,4 +222,49 @@ db.strategies.insertMany([{
     volume: '500',
     delta : 0
   },
+},{
+    "_id" : ObjectId("5da19b7d181fc3600c5544c9"),
+    "name" : "FreeK",
+    "description" : "在<i>监控时间</i>范围内,根据指定K线形态,涨速,成交量进行匹配",
+    "op" : "buy",
+    "url" : "FreeK",
+    "parameters" : {
+        "code" : "",
+        "executeDate" : "",
+        "monitorTime" : {
+            "start" : "09:30",
+            "end" : "15:00"
+        },
+        "index_percent" : {
+            "min" : "-10.0",
+            "max" : "10.0"
+        },
+        "k_shape" : {
+            "open" : {
+                "min" : "0.0",
+                "max" : "0.0"
+            },
+            "low" : {
+                "min" : "0.0",
+                "max" : "0.0"
+            },
+            "high" : {
+                "min" : "0.0",
+                "max" : "0.0"
+            },
+            "close" : {
+                "min" : "0.0",
+                "max" : "0.0"
+            }
+        },
+        "speed" : {
+            "time_price" : "30",
+            "percent" : "0.0",
+            "time_amount" : "30",
+            "amount" : "0"
+        },
+        "amount_now" : "0",
+        "volume" : "500",
+        "delta" : 0
+    }
 }]);
